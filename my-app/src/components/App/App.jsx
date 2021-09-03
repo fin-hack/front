@@ -29,9 +29,11 @@ const ROUTES = [
 class App extends React.Component {
 
     componentDidMount() {
-        setTimeout(() => {
-            this.props.setIsInitialized(true);
-        }, 1000);
+        window.onload = () => {
+            setTimeout(() => {
+                this.props.setIsInitialized(true);
+            }, 1000);
+        };
     }
 
     render() {

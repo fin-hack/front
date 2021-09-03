@@ -1,7 +1,6 @@
 import * as axios from 'axios';
 import {getApiKey, setApiKey} from "./apiKeyManager";
 
-
 const getInstance = () =>
     axios.create({
         baseURL: 'http://192.168.5.247:8000/',

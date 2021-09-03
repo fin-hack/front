@@ -2,6 +2,7 @@ import React from 'react';
 import {reduxForm} from 'redux-form';
 import {createField, Input} from '../../common/FormsControls/FormsControls';
 import {connect} from "react-redux";
+import s from './LoginForm.module.css';
 
 const LoginForm = ({handleSubmit, ...props}) => {
     return (

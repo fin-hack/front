@@ -3,6 +3,7 @@ import {connect} from "react-redux";
 import {compose} from "redux";
 import {withLoginRedirect} from "../common/withLoginRedirect/withLoginRedirect";
 import {logout} from "../../store/reducers/loginPageReducer";
+import s from './CabinetPage.module.css';
 
 class Cabinet extends React.Component {
     render() {
