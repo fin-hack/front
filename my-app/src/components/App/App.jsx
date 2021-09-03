@@ -1,14 +1,13 @@
 import React from 'react';
-import {NavLink, Route} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 import LoginPage from "../LoginPage/LoginPage";
 import CabinetPage from "../CabinetPage/CabinetPage";
 import {CSSTransition} from "react-transition-group";
-import AchievementsPage from "../AchievementsPage/AchievementsPage";
 import Preloader from "../common/Preloader/Preloader";
 import {connect} from "react-redux";
 import {setIsInitialized} from "../../store/reducers/appReducer";
 
-const ROUTES = [
+const PAGES = [
     {
         url: '/',
         Component: LoginPage,
@@ -18,12 +17,7 @@ const ROUTES = [
         url: '/cabinet',
         Component: CabinetPage,
         name: 'cabinet'
-    },
-    {
-        url: '/achievements',
-        Component: AchievementsPage,
-        name: 'achievements'
-    },
+    }
 ];
 
 class App extends React.Component {
@@ -35,13 +29,9 @@ class App extends React.Component {
     }
 
     render() {
-        const links = ROUTES.map(page => {
-            return <NavLink key={page.name} to={page.url}>{page.name}</NavLink>
-        });
-
-        const pages = ROUTES.map(page => {
+        const pages = PAGES.map(page => {
             return (
-                <Route key={page.path} exact path={page.url}>
+                <Route key={page.url} path={page.url}>
                     {
                         ({match}) => {
                             return <CSSTransition
@@ -69,9 +59,6 @@ class App extends React.Component {
                                key={1}
                 >
                     <div className={'app-wrapper'}>
-                        <nav>
-                            {links}
-                        </nav>
                         {pages}
                     </div>
                 </CSSTransition>
