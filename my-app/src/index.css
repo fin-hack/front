@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.page,
+.app-wrapper {
+  transition: .3s;
+  position: absolute;
+}
+
+.page-enter,
+.app-wrapper-enter {
+  opacity: 0;
+}
+
+.page-enter-active,
+.app-wrapper-enter-active {
+  opacity: 1;
+}
+
+.page-exit,
+.app-wrapper-exit {
+  opacity: 1;
+}
+
+.page-exit-active,
+.app-wrapper-exit-active {
+  opacity: 0;
+}
