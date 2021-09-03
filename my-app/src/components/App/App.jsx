@@ -30,9 +30,7 @@ class App extends React.Component {
 
     componentDidMount() {
         window.onload = () => {
-            setTimeout(() => {
-                this.props.setIsInitialized(true);
-            }, 1000);
+            this.props.setIsInitialized(true);
         };
     }
 
