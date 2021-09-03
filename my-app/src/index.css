@@ -14,8 +14,10 @@ code {
 
 .page,
 .app-wrapper {
-  transition: .3s;
   position: absolute;
+  transition: .3s;
+  width: 100vw;
+  height: 100vh;
 }
 
 .page-enter,

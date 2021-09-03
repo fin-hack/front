@@ -3,21 +3,23 @@ import {connect} from "react-redux";
 import {compose} from "redux";
 import {withLoginRedirect} from "../common/withLoginRedirect/withLoginRedirect";
 import {logout} from "../../store/reducers/loginPageReducer";
-import Achievements from "../Achievements/Achievements";
+import Profile from "../Profile/Profile";
 import {CSSTransition} from "react-transition-group";
-import {NavLink, Route} from "react-router-dom";
-import Tracker from "../Tracker/Tracker";
+import {Route} from "react-router-dom";
+import Team from "../Team/Team";
+import s from './CabinetPage.module.css';
+import NavBar from "../NavBar/NavBar";
 
 const SECTIONS = [
     {
         url: '/cabinet/',
-        Component: Achievements,
-        name: 'achievements'
+        Component: Profile,
+        name: 'profile'
     },
     {
-        url: '/cabinet/tracker/',
-        Component: Tracker,
-        name: 'tracker'
+        url: '/cabinet/team/',
+        Component: Team,
+        name: 'team'
     }
 ];
 
@@ -44,16 +46,12 @@ class Cabinet extends React.Component {
             )
         });
 
-        const links = SECTIONS.map(page => {
-            return <NavLink key={page.name} to={page.url}>{page.name}</NavLink>
-        });
-
         return (
-            <div>
-                <nav>
-                    {links}
-                </nav>
-                {sections}
+            <div className={s.wrapper}>
+                <NavBar sections={SECTIONS}/>
+                <div>
+                    {sections}
+                </div>
             </div>
         )
     }

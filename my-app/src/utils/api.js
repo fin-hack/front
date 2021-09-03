@@ -11,12 +11,18 @@ const getInstance = () =>
 
 export const authAPI = {
     login(username, email, password) {
-        return getInstance().post(`auth/login/`, {
+        /*return getInstance().post(`auth/login/`, {
             username, email, password
         })
             .then(resp => {
                 setApiKey(resp.data.key);
                 return resp.data
-            });
+            });*/
+
+        setApiKey('123');
+
+        return {
+            key: '123'
+        }
     },
 };

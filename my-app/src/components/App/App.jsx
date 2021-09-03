@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route} from 'react-router-dom'
+import {Route, Switch} from 'react-router-dom'
 import LoginPage from "../LoginPage/LoginPage";
 import CabinetPage from "../CabinetPage/CabinetPage";
 import {CSSTransition} from "react-transition-group";
@@ -63,7 +63,7 @@ class App extends React.Component {
                     </div>
                 </CSSTransition>
 
-                <CSSTransition in={!this.props.initialized}
+               <CSSTransition in={!this.props.initialized}
                                classNames="app-wrapper"
                                unmountOnExit
                                timeout={300}
