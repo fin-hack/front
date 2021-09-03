@@ -2,3 +2,7 @@
     display: grid;
     grid-template: 100vh / 10% 90%;
 }
+
+.sections {
+    position: relative;
+}

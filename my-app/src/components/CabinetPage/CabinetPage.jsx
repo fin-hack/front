@@ -49,7 +49,7 @@ class Cabinet extends React.Component {
         return (
             <div className={s.wrapper}>
                 <NavBar sections={SECTIONS}/>
-                <div>
+                <div className={s.sections}>
                     {sections}
                 </div>
             </div>

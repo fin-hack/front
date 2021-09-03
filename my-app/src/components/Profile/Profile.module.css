@@ -1,0 +1,6 @@
+.wrapper {
+    display: grid;
+    grid-template: 100% / 40% 60%;
+    width: 100%;
+    height: 100%;
+}

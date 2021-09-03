@@ -44,6 +44,8 @@ code {
 .section {
   transition: .3s;
   position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .section-enter {
