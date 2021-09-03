@@ -37,3 +37,25 @@ code {
 .app-wrapper-exit-active {
   opacity: 0;
 }
+
+
+.section {
+  transition: .3s;
+  position: absolute;
+}
+
+.section-enter {
+  opacity: 0;
+}
+
+.section-enter-active {
+  opacity: 1;
+}
+
+.section-exit {
+  opacity: 1;
+}
+
+.section-exit-active {
+  opacity: 0;
+}

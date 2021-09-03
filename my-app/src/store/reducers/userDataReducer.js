@@ -1,7 +1,7 @@
 const SET_IS_AUTH = 'userData/SET-IS-AUTH';
 
 let initialState = {
-    isAuth: true,
+    isAuth: false,
 };
 
 const userDataReducer = (state = initialState, action) => {

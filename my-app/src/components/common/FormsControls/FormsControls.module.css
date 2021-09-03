@@ -1,8 +1,7 @@
 .formControl textarea,
 .formControl input {
-    border: solid 2px transparent;
+    border: solid 2px black;
     padding: 5px;
-    background: #eeeeee;
     border-radius: 10px;
     transition: .2s;
     outline: none;
@@ -10,7 +9,6 @@
 
 .formControl textarea:focus,
 .formControl input:focus {
-    background: transparent;
     border-color: hsl(210, 50%, 50%) !important;
 }
 

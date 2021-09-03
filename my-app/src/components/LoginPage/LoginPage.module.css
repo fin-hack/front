@@ -1,0 +1,16 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 grey;
+
+}
+

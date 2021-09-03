@@ -31,10 +31,10 @@ class Cabinet extends React.Component {
                             return <CSSTransition
                                 in={match != null}
                                 timeout={300}
-                                classNames="page"
+                                classNames="section"
                                 unmountOnExit
                             >
-                                <div className="page">
+                                <div className="section">
                                     <page.Component/>
                                 </div>
                             </CSSTransition>

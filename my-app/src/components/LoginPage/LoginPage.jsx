@@ -12,13 +12,16 @@ class LoginPage extends React.Component {
     };
 
     render() {
-
         if (this.props.isAuth) return <Redirect to={'/cabinet'}/>;
 
         return (
-            <>
-                <LoginForm onSubmit={this.onSubmit}/>
-            </>
+            <div className={s.wrapper}>
+                <div className={s.card}>
+                    <div>Logo</div>
+                    <div>Welcome</div>
+                    <LoginForm onSubmit={this.onSubmit}/>
+                </div>
+            </div>
         )
     }
 }
