@@ -13,7 +13,7 @@ class LoginPage extends React.Component {
     };
 
     render() {
-        if (this.props.isAuth) return <Redirect to={'/cabinet'}/>;
+        if (this.props.isAuth) return <Redirect to={'/cabinet/profile'}/>;
 
         return (
             <div className={s.wrapper}

@@ -5,14 +5,14 @@ import {withLoginRedirect} from "../common/withLoginRedirect/withLoginRedirect";
 import {logout} from "../../store/reducers/loginPageReducer";
 import Profile from "../Profile/Profile";
 import {CSSTransition} from "react-transition-group";
-import {Route, Switch} from "react-router-dom";
+import {Route} from "react-router-dom";
 import Team from "../Team/Team";
 import s from './CabinetPage.module.css';
 import NavBar from "../NavBar/NavBar";
 
 const SECTIONS = [
     {
-        url: '/cabinet/',
+        url: '/cabinet/profile/',
         Component: Profile,
         name: 'profile',
         icon: <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">

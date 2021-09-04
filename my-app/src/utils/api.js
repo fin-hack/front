@@ -23,18 +23,18 @@ export const teamAPI = {
 
 export const authAPI = {
     login(email, password, mood) {
-        return getInstance().post(`auth/login/`, {
+        /*return getInstance().post(`auth/login/`, {
             email, password, mood
         })
             .then(resp => {
                 setApiKey(resp.data.key);
                 return resp.data
-            });
+            });*/
 
-        //setApiKey('123');
-//
-        //return {
-        //    key: '123'
-        //}
+        setApiKey('123');
+
+        return {
+            key: '123'
+        }
     },
 };

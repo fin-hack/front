@@ -57,12 +57,16 @@ class TeamTodo extends React.Component {
         return (
             <div className={cn(cs.card, s.wrapper)}>
                 <WithPreloader in={!this.props.isFetchingTeam} classNames={'page'}>
-                    {
-                        this.props.teamData?.name &&
-                        <TodoTitle name={this.props.teamData.name}/>
-                    }
-                    <Links routes={ROUTES}/>
-                    {routes}
+                    <div className={s.content}>
+                        {
+                            this.props.teamData?.name &&
+                            <TodoTitle name={this.props.teamData.name}/>
+                        }
+                        <Links routes={ROUTES}/>
+                        <div style={{position: "relative"}}>
+                            {routes}
+                        </div>
+                    </div>
                 </WithPreloader>
             </div>
         )
