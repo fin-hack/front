@@ -7,10 +7,15 @@ const Score = (props) => {
     return (
         <div className={cn(s.score, cs.card)}>
             <div>
-                <img src={process.env.PUBLIC_URL + '/assets/nut.svg'} alt=''/>
-                {props.score}
+                <div>
+                    <img src={process.env.PUBLIC_URL + '/assets/nut.svg'} alt=''/>
+                    {props.score}
+                </div>
+                <div className={s.rateLink}>
+                    Общий рейтинг
+                </div>
             </div>
-            <div className={cs.title}>Общее число баллов</div>
+            <div className={cs.title}>Общее число каштанов</div>
         </div>
     )
 };

@@ -21,6 +21,7 @@
 }
 
 .additional {
+    overflow: hidden;
     opacity: 0;
     height: 0;
     display: flex;
