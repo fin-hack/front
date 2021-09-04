@@ -1,8 +1,9 @@
 .wrapper {
-    display: grid;
-    grid-gap: 20px;
-    grid-template: minmax(10vw, 20vw) auto auto auto / 100%;
-    max-width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /*grid-template: minmax(10vw, 20vw) auto auto auto / 100%;*/
+    width: 100%;
 }
 
 .quote,

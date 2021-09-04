@@ -6,6 +6,7 @@ import TeamInfo from "./TeamInfo/TeamInfo";
 import UserInfo from "./UserInfo/UserInfo";
 import Quote from "./Quote";
 import Score from "./Score";
+import AboutBonuses from "./AboutBonuses/AboutBonuses";
 
 class UserCard extends React.Component {
 
@@ -15,6 +16,7 @@ class UserCard extends React.Component {
             <WithPreloader in={!this.props.isFetching} classNames={'page'}>
                 <div className={s.wrapper}>
                     <UserInfo/>
+                    <AboutBonuses />
                     <Quote quote={'Работа не волк'}/>
                     <Score score={ud.score}/>
                     <TeamInfo id={ud._team}/>

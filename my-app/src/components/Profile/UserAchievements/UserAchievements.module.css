@@ -2,6 +2,6 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template: minmax(10vw, 33vh) auto / auto minmax(10vw, 33vh);
+    grid-template: minmax(10vw, 33vh) min-content / auto minmax(10vw, 33vh);
     grid-gap: 20px;
 }

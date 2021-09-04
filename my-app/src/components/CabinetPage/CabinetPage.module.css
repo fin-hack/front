@@ -1,6 +1,7 @@
 .wrapper {
     display: grid;
     grid-template: 100vh / 70px calc(100% - 70px);
+    overflow-x: hidden;
 }
 
 .sections {

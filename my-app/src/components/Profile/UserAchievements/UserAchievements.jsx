@@ -2,7 +2,7 @@ import React from 'react';
 import s from './UserAchievements.module.css';
 import Chart from "./Chart/Chart";
 import Progress from "./Progress/Progress";
-import SoftSkills from "./SoftSkills/SoftSkills";
+import MySkills from "./MySkills/MySkills";
 
 class UserAchievements extends React.Component {
     render() {
@@ -10,7 +10,7 @@ class UserAchievements extends React.Component {
             <div className={s.wrapper}>
                 <Chart />
                 <Progress/>
-                <SoftSkills />
+                <MySkills />
             </div>
         )
     }
