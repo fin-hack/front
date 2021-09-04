@@ -79,10 +79,8 @@ export const getUserData = () => async (dispatch) => {
 export const getUserProgress = () => async (dispatch) => {
     dispatch(setIsFetchingProgress(true));
     const data = await usersAPI.getValues();
-    setTimeout(() => {
-        dispatch(setProgress(data));
-        dispatch(setIsFetchingProgress(false));
-    }, 1000);
+    dispatch(setProgress(data));
+    dispatch(setIsFetchingProgress(false));
 };
 
 export const getChart = () => async (dispatch) => {

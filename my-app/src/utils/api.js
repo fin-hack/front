@@ -18,6 +18,9 @@ export const usersAPI = {
     },
     getChart(count) {
         return getInstance().get(`/users/graph_values?count=${count}`).then(resp => resp.data);
+    },
+    getLeaderboard() {
+        return getInstance().get('users/leaderboard').then(resp => resp.data);
     }
 };
 

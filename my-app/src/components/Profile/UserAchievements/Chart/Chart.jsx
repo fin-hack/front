@@ -23,7 +23,7 @@ class Chart extends React.Component {
                     <div className={s.wrapper}>
                         {this.props.chart.values.map((value, index) => {
                             return (
-                                <div key={value} className={s.item} style={{
+                                <div key={index} className={s.item} style={{
                                     height: `${100 * value}%`
                                 }}>
                                     <div>
@@ -34,6 +34,7 @@ class Chart extends React.Component {
                         })}
                         <img className={s.rightArrow} src={getFullPath('CaretUp.svg')} alt=""/>
                         <img className={s.topArrow} src={getFullPath('CaretUp.svg')} alt=""/>
+                        <img className={s.squirrel} src={getFullPath('squirrel.png')} alt=""/>
                     </div>
                 }
             </WithPreloader>

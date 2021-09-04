@@ -7,10 +7,10 @@
     grid-auto-rows: max-content;
     grid-template-columns: 100%;
     grid-gap: 20px;
+    z-index: 9;
 }
 
 .opened {
-    z-index: 9;
     height: 60vh;
     max-height: none;
 }
@@ -55,7 +55,7 @@
 
 .percentage {
     color: #676565;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
     position: absolute;
     top: 50%;
