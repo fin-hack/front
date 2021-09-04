@@ -1,6 +1,6 @@
 .wrapper {
     display: grid;
-    grid-template: 100% / 30% 70%;
+    grid-template: 100% / minmax(10vw, 20vw) auto;
     grid-gap: 20px;
     height: 100%;
     padding: 20px;

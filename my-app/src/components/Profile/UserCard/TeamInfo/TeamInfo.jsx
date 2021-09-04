@@ -18,7 +18,7 @@ class TeamInfo extends React.Component {
             <WithPreloader in={!this.props.isFetching} classNames={'page'}>
                 { this.props.teamData &&
                     <div className={cn(s.wrapper, cs.card)}>
-                        <div className={s.title}>
+                        <div className={cn(cs.title, s.title)}>
                             <div>My team</div>
                             <div>{this.props.teamData.name}</div>
                         </div>

@@ -6,7 +6,11 @@ import cn from 'classnames';
 const Score = (props) => {
     return (
         <div className={cn(s.score, cs.card)}>
-            {props.score}
+            <div>
+                <img src={process.env.PUBLIC_URL + '/assets/nut.svg'} alt=''/>
+                {props.score}
+            </div>
+            <div className={cs.title}>Общее число баллов</div>
         </div>
     )
 };

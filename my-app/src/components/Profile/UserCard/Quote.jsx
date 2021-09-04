@@ -6,7 +6,8 @@ import s from './UserCard.module.css';
 const Quote = (props) => {
     return (
         <div className={cn(s.quote, cs.card)}>
-            {props.quote}
+            <div className={cs.title}>{props.quote}</div>
+            <div>Девиз дня</div>
         </div>
     )
 };

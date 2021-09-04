@@ -2,3 +2,33 @@
     max-width: 33vh;
     max-height: 33vh;
 }
+
+.wrapper > div:last-child {
+    width: 100%;
+    height: calc(100% - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.wrapper svg {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    fill: none;
+    stroke: #0BCB35;
+    stroke-width: 10px;
+}
+
+.wrapper svg > path {
+    stroke-dasharray: 555;
+}
+
+.wrapper > div > div {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+}

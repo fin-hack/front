@@ -1,5 +1,27 @@
 .wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template: minmax(10vw, 20vw) auto auto auto / 100%;
+    max-width: 20vw;
+}
+
+.quote,
+.score {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    grid-gap: 8px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.quote > div,
+.score > div {
+    display: flex;
+    align-items: center;
+}
+
+.quote > div:last-child,
+.score > div:last-child {
+    color: #ABABAB;
+    font-weight: 500;
 }
