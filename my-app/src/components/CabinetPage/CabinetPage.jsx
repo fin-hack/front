@@ -41,7 +41,7 @@ class Cabinet extends React.Component {
     render() {
         const sections = SECTIONS.map(page => {
             return (
-                <Route key={page.url} exact path={page.url}>
+                <Route key={page.url} path={page.url}>
                     {
                         ({match}) => {
                             return <CSSTransition
