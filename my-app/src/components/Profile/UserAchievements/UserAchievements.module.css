@@ -1,0 +1,7 @@
+.wrapper {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    display: grid;
+    grid-template: 20% 80% / 60% 40%;
+    grid-gap: 20px;
+}

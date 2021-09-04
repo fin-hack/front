@@ -1,0 +1,10 @@
+.wrapper {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

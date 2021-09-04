@@ -15,6 +15,12 @@ export const usersAPI = {
     }
 };
 
+export const teamAPI = {
+    getTeamData(id) {
+        return getInstance().get(`/team?id=${id}`).then(resp => resp.data);
+    }
+};
+
 export const authAPI = {
     login(username, email, password) {
         /*return getInstance().post(`auth/login/`, {

@@ -4,10 +4,12 @@ import { reducer as formReducer } from 'redux-form';
 import thunkMW from 'redux-thunk';
 import appReducer from "./reducers/appReducer";
 import userDataReducer from "./reducers/userDataReducer";
+import teamReducer from "./reducers/teamReducer";
 
 const reducers = combineReducers({
     app: appReducer,
     userData: userDataReducer,
+    teamData: teamReducer,
     loginPage: loginPageReducer,
     form: formReducer,
 });

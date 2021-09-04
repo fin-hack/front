@@ -6,6 +6,7 @@ import {CSSTransition} from "react-transition-group";
 import Preloader from "../common/Preloader/Preloader";
 import {connect} from "react-redux";
 import {setIsInitialized} from "../../store/reducers/appReducer";
+import WithPreloader from "../common/WithPreloader/WithPreloader";
 
 const PAGES = [
     {
@@ -37,10 +38,10 @@ class App extends React.Component {
                             return <CSSTransition
                                 in={match != null}
                                 timeout={300}
-                                classNames="page"
+                                classNames="app-wrapper"
                                 unmountOnExit
                             >
-                                <div className="page">
+                                <div className="app-wrapper">
                                     <page.Component/>
                                 </div>
                             </CSSTransition>
@@ -52,27 +53,9 @@ class App extends React.Component {
 
         return (
             <>
-                <CSSTransition in={this.props.initialized}
-                               classNames="app-wrapper"
-                               unmountOnExit
-                               timeout={300}
-                               key={1}
-                >
-                    <div className={'app-wrapper'}>
-                        {pages}
-                    </div>
-                </CSSTransition>
-
-               <CSSTransition in={!this.props.initialized}
-                               classNames="app-wrapper"
-                               unmountOnExit
-                               timeout={300}
-                               key={2}
-                >
-                    <div className='app-wrapper'>
-                        <Preloader/>
-                    </div>
-                </CSSTransition>
+                <WithPreloader in={this.props.initialized} classNames={'app-wrapper'}>
+                    {pages}
+                </WithPreloader>
             </>
         )
     }

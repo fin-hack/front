@@ -1,6 +1,6 @@
 .wrapper {
     display: grid;
-    grid-template: 100vh / 10% 90%;
+    grid-template: 100vh / 50px calc(100% - 50px);
 }
 
 .sections {

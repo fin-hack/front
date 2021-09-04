@@ -12,7 +12,29 @@ code {
     monospace;
 }
 
-.page,
+.page {
+  transition: .3s;
+  width: 100%;
+}
+
+.page-enter {
+  position: absolute;
+  opacity: 0;
+}
+
+.page-enter-active {
+  opacity: 1;
+}
+
+.page-exit {
+  position: absolute;
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+}
+
 .app-wrapper {
   position: absolute;
   transition: .3s;
@@ -20,22 +42,18 @@ code {
   height: 100vh;
 }
 
-.page-enter,
 .app-wrapper-enter {
   opacity: 0;
 }
 
-.page-enter-active,
 .app-wrapper-enter-active {
   opacity: 1;
 }
 
-.page-exit,
 .app-wrapper-exit {
   opacity: 1;
 }
 
-.page-exit-active,
 .app-wrapper-exit-active {
   opacity: 0;
 }

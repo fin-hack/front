@@ -1,6 +1,9 @@
 .wrapper {
     display: grid;
-    grid-template: 100% / 40% 60%;
-    width: 100%;
+    grid-template: 100% / 20% 80%;
+    grid-gap: 20px;
+    width: calc(100% - 20px);
     height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }

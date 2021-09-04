@@ -39,8 +39,10 @@ export const setUserData = (userData) => ({type: SET_USER_DATA, userData});
 export const getUserData = () => async (dispatch) => {
     dispatch(setIsFetching(true));
     const data = await usersAPI.getUserData();
-    dispatch(setUserData(data));
-    dispatch(setIsFetching(false));
+    setTimeout(() => {
+        dispatch(setUserData(data));
+        dispatch(setIsFetching(false));
+    }, 1000);
 };
 
 export default userDataReducer;
