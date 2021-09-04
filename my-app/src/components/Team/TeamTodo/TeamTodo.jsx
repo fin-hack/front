@@ -43,7 +43,7 @@ class TeamTodo extends React.Component {
                                                classNames="page"
                                                unmountOnExit>
                                     <div className="page">
-                                        <route.Component/>
+                                        <route.Component teamData={this.props.teamData}/>
                                     </div>
                                 </CSSTransition>
                             )
@@ -56,18 +56,13 @@ class TeamTodo extends React.Component {
 
         return (
             <div className={cn(cs.card, s.wrapper)}>
-                <WithPreloader in={!this.props.isFetchingTeam} classNames={'page'}>
-                    <div className={s.content}>
-                        {
-                            this.props.teamData?.name &&
-                            <TodoTitle name={this.props.teamData.name}/>
-                        }
-                        <Links routes={ROUTES}/>
-                        <div style={{position: "relative"}}>
-                            {routes}
-                        </div>
+                <div className={s.content}>
+                    <TodoTitle name={this.props.teamData.name}/>
+                    <Links routes={ROUTES}/>
+                    <div style={{position: "relative"}}>
+                        {routes}
                     </div>
-                </WithPreloader>
+                </div>
             </div>
         )
     }

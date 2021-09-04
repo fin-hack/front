@@ -3,13 +3,12 @@ import s from './TeamCard.module.css';
 import cs from '../../../common.module.css';
 import cn from 'classnames'
 import {connect} from "react-redux";
-import WithPreloader from "../../common/WithPreloader/WithPreloader";
 import User from "./User/User";
 
 class TeamCard extends React.Component {
     render() {
         const users = this.props.users && this.props.users.map(user => {
-            return <User firstName={user.first_name} lastName={user.last_name} score={user.score}/>
+            return <User key={user.token} firstName={user.first_name} lastName={user.last_name} score={user.score}/>
         });
 
         return (
@@ -17,9 +16,7 @@ class TeamCard extends React.Component {
                 <div className={cs.title}>Моя команда</div>
                 <div className={s.usersBox}>
                     <div className={s.usersBoxTitle}>Участники</div>
-                    <WithPreloader in={!this.props.isFetching} classNames={'page'}>
-                        {users}
-                    </WithPreloader>
+                    {users}
                 </div>
                 <div className={s.leaveButton}>
                     Покинуть команду
@@ -31,7 +28,6 @@ class TeamCard extends React.Component {
 
 const mstp = (state) => ({
     users: state.teamData.users,
-    isFetchingTeam: state.teamData.isFetching
 });
 
 export default connect(mstp)(TeamCard);

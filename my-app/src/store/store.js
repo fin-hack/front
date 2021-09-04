@@ -5,12 +5,14 @@ import thunkMW from 'redux-thunk';
 import appReducer from "./reducers/appReducer";
 import userDataReducer from "./reducers/userDataReducer";
 import teamReducer from "./reducers/teamReducer";
+import tasksReducer from "./reducers/tasksReducer";
 
 const reducers = combineReducers({
     app: appReducer,
     userData: userDataReducer,
     teamData: teamReducer,
     loginPage: loginPageReducer,
+    tasks: tasksReducer,
     form: formReducer,
 });
 

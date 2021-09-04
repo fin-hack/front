@@ -4,7 +4,7 @@ import Preloader from "../Preloader/Preloader";
 
 const WithPreloader = (props) => {
     return (
-        <div style={{position: 'relative'}}>
+        <div style={{position: 'relative', height: '100%'}}>
             <CSSTransition in={props.in}
                            classNames={props.classNames}
                            unmountOnExit

@@ -18,6 +18,9 @@ export const usersAPI = {
 export const teamAPI = {
     getTeamData(id) {
         return getInstance().get(`/team?id=${id}`).then(resp => resp.data);
+    },
+    getTasks(id) {
+        return getInstance().get(`/team/tasks?id=${id}`).then(resp => resp.data);
     }
 };
 
