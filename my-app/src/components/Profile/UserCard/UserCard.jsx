@@ -21,7 +21,7 @@ class UserCard extends React.Component {
                 {ud &&
                 <div className={s.wrapper}>
                     <UserInfo/>
-                    <Quote quote={'quote'}/>
+                    <Quote quote={'Работа не волк'}/>
                     <Score score={ud.score}/>
                     <TeamInfo id={ud._team}/>
                 </div>

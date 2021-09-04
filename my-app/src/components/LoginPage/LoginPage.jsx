@@ -9,7 +9,7 @@ import Logo from "../common/Logo";
 class LoginPage extends React.Component {
 
     onSubmit = (formData) => {
-        this.props.login(formData.username, formData.email, formData.password);
+        this.props.login(formData.email, formData.password, formData.mood);
     };
 
     render() {
@@ -17,14 +17,17 @@ class LoginPage extends React.Component {
 
         return (
             <div className={s.wrapper}
-                 style={{
-                     backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/loginBackground.svg'})`
-                 }}
             >
                 <div className={s.card}>
                     <Logo/>
                     <LoginForm onSubmit={this.onSubmit}/>
                 </div>
+                <div className={s.video}>
+                    <video autoPlay={true} loop={'loop'}>
+                        <source src={process.env.PUBLIC_URL + '/assets/loginBackground.mp4'} />
+                    </video>
+                </div>
+
             </div>
         )
     }

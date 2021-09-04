@@ -9,7 +9,7 @@ class UserAchievements extends React.Component {
         return (
             <div className={s.wrapper}>
                 <Chart />
-                <Progress percentage={50}/>
+                <Progress percentage={59}/>
                 <SoftSkills />
             </div>
         )

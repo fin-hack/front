@@ -3,17 +3,25 @@
     position: relative;
     display: grid;
     grid-template: auto / repeat(3, 1fr);
+    background: #C4C4C4;
 }
 
 .link {
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
     z-index: 2;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .floatingElem {
     width: calc(100% / 3);
     height: 100%;
     position: absolute;
-    background: red;
+    background: #1372E9;
     z-index: 1;
     transition: .3s;
 }

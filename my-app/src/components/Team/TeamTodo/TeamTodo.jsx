@@ -46,7 +46,8 @@ class TeamTodo extends React.Component {
                                         <route.Component/>
                                     </div>
                                 </CSSTransition>
-                            )}
+                            )
+                        }
                     }
 
                 </Route>
@@ -56,14 +57,12 @@ class TeamTodo extends React.Component {
         return (
             <div className={cn(cs.card, s.wrapper)}>
                 <WithPreloader in={!this.props.isFetchingTeam} classNames={'page'}>
-                    <>
-                        {
-                            this.props.teamData?.name &&
-                            <TodoTitle name={this.props.teamData.name}/>
-                        }
-                        <Links routes={ROUTES}/>
-                        {routes}
-                    </>
+                    {
+                        this.props.teamData?.name &&
+                        <TodoTitle name={this.props.teamData.name}/>
+                    }
+                    <Links routes={ROUTES}/>
+                    {routes}
                 </WithPreloader>
             </div>
         )

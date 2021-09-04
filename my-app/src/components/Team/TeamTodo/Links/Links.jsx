@@ -38,7 +38,7 @@ class Links extends React.Component {
                     this.state.currentClickedIndex !== null &&
                     <div className={s.floatingElem}
                          style={{
-                             left: this.state.currentClickedIndex * 33 + '%',
+                             left: this.state.currentClickedIndex * 33.33 + '%',
                          }}
                     >
 

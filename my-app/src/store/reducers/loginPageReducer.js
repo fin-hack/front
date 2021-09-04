@@ -22,9 +22,9 @@ const loginPageReducer = (state = initialState, action) => {
 
 export const setIsFetching = (isFetching) => ({type: SET_IS_FETCHING, isFetching});
 
-export const login = (username, email, password) => async (dispatch) => {
+export const login = (email, password, mood) => async (dispatch) => {
     dispatch(setIsFetching(true));
-    const res = await authAPI.login(username, email, password);
+    const res = await authAPI.login(email, password, mood);
     if (res.key) {
         setApiKey(res.key);
         dispatch(setIsAuth(true));
