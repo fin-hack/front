@@ -26,3 +26,7 @@
     line-height: 19px;
     color: #676565;
 }
+
+.deadline {
+    min-height: 40px;
+}

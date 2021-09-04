@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './UserAchievements.module.css';
-import Chart from "./Chart/Chart";
+import Chart from "./MyTracker/MyTracker";
 import Progress from "./Progress/Progress";
 import MySkills from "./MySkills/MySkills";
 import Market from "./Market/Market";
