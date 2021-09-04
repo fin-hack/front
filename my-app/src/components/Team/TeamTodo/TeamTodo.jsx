@@ -5,11 +5,12 @@ import cn from 'classnames';
 import {connect} from "react-redux";
 import TodoTitle from "./TodoTitle/TodoTitle";
 import WithPreloader from "../../common/WithPreloader/WithPreloader";
-import {NavLink, Route} from "react-router-dom";
+import {Route} from "react-router-dom";
 import Done from "./Done/Done";
 import Current from "./Current/Current";
 import Pool from "./Pool/Pool";
 import {CSSTransition} from "react-transition-group";
+import Links from "./Links/Links";
 
 const ROUTES = [
     {
@@ -27,15 +28,10 @@ const ROUTES = [
         Component: Pool,
         name: 'pool'
     },
-
 ];
 
 class TeamTodo extends React.Component {
     render() {
-        const links = ROUTES.map(route => {
-            return <NavLink key={route.name} to={route.url}>{route.name}</NavLink>
-        });
-
         const routes = ROUTES.map(route => {
             return (
                 <Route key={route.url} exact path={route.url}>
@@ -65,7 +61,7 @@ class TeamTodo extends React.Component {
                             this.props.teamData?.name &&
                             <TodoTitle name={this.props.teamData.name}/>
                         }
-                        {links}
+                        <Links routes={ROUTES}/>
                         {routes}
                     </>
                 </WithPreloader>

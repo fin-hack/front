@@ -11,7 +11,6 @@ class NavBar extends React.Component {
             return (
                 <NavLink key={page.name}
                          to={page.url}
-                         exact={true}
                          className={s.link}
                          activeClassName={s.active}
                 >

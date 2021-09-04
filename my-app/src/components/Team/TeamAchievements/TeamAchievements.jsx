@@ -10,7 +10,7 @@ class TeamAchievements extends React.Component {
             <div className={cn(cs.card, s.wrapper)}>
                 <div className={s.title}>Награды</div>
                 <div className={s.box}>
-                    {['kek', 'lala'].map(ach => <Achievement achievement={ach}/>)}
+                    {['kek', 'lala'].map(ach => <Achievement key={ach} achievement={ach}/>)}
                 </div>
             </div>
         )
