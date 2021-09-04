@@ -27,7 +27,7 @@ class MySkills extends React.Component {
                             {
                                 Object.keys(skills).map(key => {
                                     return (
-                                        <div className={s.item}>
+                                        <div key={key} className={s.item}>
                                             <div>{skills[key]}</div>
                                             <div>
                                                 <Progressbar value={this.props.userData[key]}

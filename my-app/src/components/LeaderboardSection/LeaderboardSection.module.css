@@ -1,0 +1,19 @@
+.wrapper {
+    display: grid;
+    grid-template: auto auto / 100%;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.trophiesWrapper,
+.leaderboardWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

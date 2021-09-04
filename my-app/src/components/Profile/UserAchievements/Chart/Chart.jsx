@@ -23,7 +23,7 @@ class Chart extends React.Component {
                     <div className={s.wrapper}>
                         {this.props.chart.values.map((value, index) => {
                             return (
-                                <div className={s.item} style={{
+                                <div key={value} className={s.item} style={{
                                     height: `${100 * value}%`
                                 }}>
                                     <div>

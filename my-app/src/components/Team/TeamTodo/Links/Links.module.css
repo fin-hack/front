@@ -2,7 +2,6 @@
     width: 100%;
     position: relative;
     display: grid;
-    grid-template: auto / repeat(3, 1fr);
     background: #C4C4C4;
     border-radius: 8px;
 }
@@ -20,7 +19,6 @@
 }
 
 .floatingElem {
-    width: calc(100% / 3);
     height: 100%;
     position: absolute;
     background: #1372E9;

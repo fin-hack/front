@@ -10,6 +10,7 @@ import Team from "../Team/Team";
 import s from './CabinetPage.module.css';
 import NavBar from "../NavBar/NavBar";
 import NotificationsButton from "../NavBar/NotificationsButton/NotificationsButton";
+import LeaderboardSection from "../LeaderboardSection/LeaderboardSection";
 
 const SECTIONS = [
     {
@@ -41,6 +42,18 @@ const SECTIONS = [
             <path d="M19.499 37.8746C20.5689 36.4484 21.9561 35.2909 23.5508 34.4936C25.1455 33.6964 26.9039 33.2813 28.6868 33.2813C30.4697 33.2812 32.2281 33.6962 33.8228 34.4934C35.4176 35.2906 36.8048 36.448 37.8748 37.8742" stroke="#9F9F9F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M28.6875 13.375C32.0702 13.375 34.8125 10.6327 34.8125 7.25C34.8125 3.86726 32.0702 1.125 28.6875 1.125C25.3048 1.125 22.5625 3.86726 22.5625 7.25C22.5625 10.6327 25.3048 13.375 28.6875 13.375Z" stroke="#9F9F9F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M19.499 17.9684C20.5689 16.5422 21.9561 15.3846 23.5508 14.5874C25.1455 13.7901 26.9039 13.375 28.6868 13.375C30.4697 13.375 32.2281 13.79 33.8228 14.5871C35.4176 15.3843 36.8048 16.5418 37.8748 17.9679" stroke="#9F9F9F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+    },
+    {
+        url: '/cabinet/leaderboard/personal',
+        Component: LeaderboardSection,
+        name: 'leaderboard',
+        NavComponent: () => <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M32.625 19.9355L41.6875 10.873L50.7498 19.934" stroke="#9F9F9F" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M41.6875 32.623V10.873" stroke="#9F9F9F" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M10.875 28.998H27.1873" stroke="#9F9F9F" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M10.875 14.498H23.5623" stroke="#9F9F9F" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M10.875 43.498H41.6873" stroke="#9F9F9F" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
     }
 ];

@@ -32,13 +32,18 @@ class Links extends React.Component {
         });
 
         return (
-            <div className={s.links}>
+            <div className={s.links}
+                 style={{
+                     gridTemplate: `auto / repeat(${links.length}, 1fr)`
+                 }}
+            >
                 {links}
                 {
                     this.state.currentClickedIndex !== null &&
                     <div className={s.floatingElem}
                          style={{
-                             left: this.state.currentClickedIndex * 33.33 + '%',
+                             width: 100 / links.length + '%',
+                             left: this.state.currentClickedIndex * 100 / links.length + '%',
                          }}
                     >
 
