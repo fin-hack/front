@@ -1,0 +1,1 @@
+export const getFullPath = (path) => process.env.PUBLIC_URL + '/assets/' + path;

@@ -5,12 +5,14 @@ import Task from "./Task/Task";
 
 class Tasks extends React.Component {
     render() {
-        const tasks = this.props.tasks.map(task => <Task task={task}/>);
+        const tasks = this.props.tasks.map(t => {
+            return <Task task={t}/>
+        });
         return (
             <div>
                 {
-                    tasks.length !== 0 ?
-                        {tasks}
+                    tasks.length > 0 ?
+                        tasks
                         :
                         <div>Empty</div>
                 }

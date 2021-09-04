@@ -39,13 +39,11 @@ export const setTasksStatus = (status) => ({type: SET_TASKS_STATUS, status});
 export const getTasks = (id, status) => async (dispatch) => {
     dispatch(setIsFetching(true));
     const res = await teamAPI.getTasks(id, status);
-    setTimeout(() => {
-        if (res.teamtask) {
-            dispatch(setTasks(res.teamtask));
-            dispatch(setTasksStatus(status));
-        }
-        dispatch(setIsFetching(false));
-    }, 1000);
+    if (res.teamtask) {
+        dispatch(setTasks(res.teamtask));
+        dispatch(setTasksStatus(status));
+    }
+    dispatch(setIsFetching(false));
 
 };
 

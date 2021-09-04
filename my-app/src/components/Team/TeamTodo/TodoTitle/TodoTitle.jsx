@@ -10,10 +10,11 @@ class TodoTitle extends React.Component {
                 </div>
                 <div className={s.infoGroup}>
                     <div>{this.props.name}</div>
-                    <div>рейтинг</div>
+                    <div>Ранг команды</div>
                 </div>
                 <div className={s.totalRate}>
                     мы в общем рейтинге
+                    <img src={process.env.PUBLIC_URL + '/assets/CaretRight.svg'}/>
                 </div>
             </div>
         )

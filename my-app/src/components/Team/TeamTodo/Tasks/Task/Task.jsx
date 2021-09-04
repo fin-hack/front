@@ -5,7 +5,7 @@ class Task extends React.Component {
     render() {
         return (
             <div>
-                task
+                {this.props.task.name}
             </div>
         )
     }

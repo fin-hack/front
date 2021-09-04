@@ -21,16 +21,11 @@
     color: #9B9B9B;
 }
 
-.leaveButton {
+.teamChat {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-    background: #C4C4C4;
-    border-radius: 8px;
-    color: #9B9B9B;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
+    color: #9B9B9B;
     cursor: pointer;
 }

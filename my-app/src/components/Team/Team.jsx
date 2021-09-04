@@ -10,7 +10,7 @@ import WithPreloader from "../common/WithPreloader/WithPreloader";
 class Team extends React.Component {
 
     componentDidMount() {
-        if (!this.props.users && !this.props.isFetching) {
+        if (!this.props.users && !this.props.isFetching && this.props.userData) {
             this.props.getTeamData(this.props.userData._team);
         }
     }

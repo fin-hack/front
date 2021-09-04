@@ -1,6 +1,30 @@
 .wrapper {
     max-width: 33vh;
-    max-height: 33vh;
+    height: 33vh;
+    transition: .3s;
+    position: relative;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: 100%;
+    grid-gap: 20px;
+}
+
+.opened {
+    height: 60vh;
+    max-height: none;
+}
+
+.progressbar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    transform-origin: center top;
+    margin-bottom: 30px;
 }
 
 .wrapper > div:last-child {
@@ -9,26 +33,71 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
-.wrapper svg {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+.backface {
     fill: none;
-    stroke: #0BCB35;
+    stroke: #ffffff;
     stroke-width: 10px;
 }
 
-.wrapper svg > path {
+.circle {
+    fill: none;
+    stroke: #0BCB35;
+    stroke-width: 10px;
+    position: absolute;
+}
+
+.circle > path {
     stroke-dasharray: 555;
 }
 
-.wrapper > div > div {
-    position: absolute;
+.progressbar > div {
     font-size: 40px;
     font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow {
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transform: translate(-150%, -150%);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.arrow.down {
+    transform: translate(-150%, -150%) rotate(180deg);
+}
+
+.additional {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.additional.opened {
+    height: 100%;
+    opacity: 1;
+}
+
+.additional > div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.additional > div > div {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 }
