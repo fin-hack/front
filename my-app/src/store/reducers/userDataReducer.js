@@ -3,10 +3,10 @@ import {usersAPI} from "../../utils/api";
 const SET_IS_AUTH = 'userData/SET-IS-AUTH';
 const SET_IS_FETCHING = 'userData/SET-IS-FETCHING';
 const SET_USER_DATA = 'userData/SET-USER-DATA';
-const SET_IS_FETCHING_PROGRESS = 'progress/SET-IS-FETCHING';
-const SET_IS_FETCHING_CHART = 'chart/SET-IS-FETCHING';
-const SET_CHART = 'chart/SET-CHART';
-const SET_PROGRESS = 'progress/SET-PROGRESS';
+const SET_PROGRESS = 'userData/SET-PROGRESS';
+const SET_IS_FETCHING_PROGRESS = 'userData/SET-IS-FETCHING-PROGRESS';
+const SET_CHART = 'userData/SET-CHART';
+const SET_IS_FETCHING_CHART = 'userData/SET-IS-FETCHING-CHART';
 
 let initialState = {
     isAuth: false,
@@ -67,6 +67,7 @@ export const setIsFetchingProgress = (isFetching) => ({type: SET_IS_FETCHING_PRO
 export const setProgress = (progress) => ({type: SET_PROGRESS, progress});
 export const setChart = (chart) => ({type: SET_CHART, chart});
 export const setIsFetchingChart = (isFetching) => ({type: SET_IS_FETCHING_CHART, isFetching});
+
 
 export const getUserData = () => async (dispatch) => {
     dispatch(setIsFetching(true));

@@ -10,6 +10,7 @@
 }
 
 .opened {
+    z-index: 9;
     height: 60vh;
     max-height: none;
 }
