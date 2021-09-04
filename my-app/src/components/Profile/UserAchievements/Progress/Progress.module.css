@@ -52,8 +52,9 @@
     stroke-dasharray: 555;
 }
 
-.progressbar > div {
-    font-size: 40px;
+.percentage {
+    color: #676565;
+    font-size: 32px;
     font-weight: 700;
     position: absolute;
     top: 50%;

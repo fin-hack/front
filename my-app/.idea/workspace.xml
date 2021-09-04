@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a888f8-83af-4af2-bcf9-8a3946adec01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserAchievements/UserAchievements.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserAchievements/UserAchievements.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/userDataReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/userDataReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Task/Task.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Task/Task.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Task/Task.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Task/Task.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Tasks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Tasks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Tasks.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Tasks.module.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,74 +20,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/reducers/userDataReducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/UserAchievements.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Tasks.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+            <state relative-caret-position="336">
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
-                <element signature="e#304#334#0" />
-                <element signature="e#360#443#0" />
-                <element signature="e#384#435#0" />
-                <element signature="n#!!block;n#componentDidMount#0;n#Progress#0" />
-                <element signature="e#569#593#0" />
-                <element signature="e#779#3087#0" />
-                <element signature="e#937#2248#0" />
-                <element signature="e#993#1513#0" />
-                <element signature="e#1075#1482#0" />
-                <element signature="e#1360#1450#0" />
-                <element signature="e#1538#2107#0" />
-                <element signature="e#1618#2076#0" />
-                <element signature="e#1903#2044#0" />
-                <element signature="e#2132#2221#0" />
-                <element signature="e#2269#2819#0" />
-                <element signature="e#2361#2484#0" />
-                <element signature="e#2509#2640#0" />
-                <element signature="e#2665#2792#0" />
-                <element signature="e#2840#3064#0" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/store.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Task/Task.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="144">
+              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
               <folding>
-                <element signature="e#0#77#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/api.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Task/Task.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="16" column="103" selection-start-line="16" selection-start-column="103" selection-end-line="16" selection-end-column="103" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Tasks.module.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -121,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/Done/Done.module.css" />
         <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/Pool/Current.jsx" />
         <option value="$PROJECT_DIR$/src/components/Team/TeamAchievements/TeamAchievements.jsx" />
         <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/Links/Links.jsx" />
@@ -132,7 +102,6 @@
         <option value="$PROJECT_DIR$/src/utils/validators.js" />
         <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/TeamTodo.module.css" />
         <option value="$PROJECT_DIR$/src/components/LoginPage/LoginPage.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Tasks.module.css" />
         <option value="$PROJECT_DIR$/src/components/Profile/Profile.jsx" />
         <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/TeamTodo.jsx" />
         <option value="$PROJECT_DIR$/src/index.css" />
@@ -144,8 +113,6 @@
         <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/Current/Current.jsx" />
         <option value="$PROJECT_DIR$/src/store/reducers/tasksReducer.js" />
         <option value="$PROJECT_DIR$/src/components/Team/Team.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Task/Task.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Tasks.jsx" />
         <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/TodoTitle/TodoTitle.module.css" />
         <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/Links/Links.module.css" />
         <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/TodoTitle/TodoTitle.jsx" />
@@ -154,7 +121,6 @@
         <option value="$PROJECT_DIR$/src/utils/utils.js" />
         <option value="$PROJECT_DIR$/src/components/Profile/Profile.module.css" />
         <option value="$PROJECT_DIR$/src/common.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.module.css" />
         <option value="$USER_HOME$/AppData/Local/Temp/UsersFour.svg" />
         <option value="$USER_HOME$/AppData/Local/Temp/User.svg" />
         <option value="$PROJECT_DIR$/public/assets/BellSimple.svg" />
@@ -172,6 +138,11 @@
         <option value="$PROJECT_DIR$/src/store/store.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/userDataReducer.js" />
         <option value="$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Tasks.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Task/Task.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Task/Task.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Tasks.jsx" />
       </list>
     </option>
   </component>
@@ -432,12 +403,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630685720727</updated>
-      <workItem from="1630685725876" duration="69942000" />
+      <workItem from="1630685725876" duration="70740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69942000" />
+    <option name="totallyTimeSpent" value="70740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -493,9 +464,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Tasks.module.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.jsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -556,9 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Task/Task.module.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/Pool/Pool.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -596,16 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Task/Task.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamInfo.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
@@ -616,30 +571,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Tasks.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Team/TeamAchievements/TeamAchievements.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/TeamTodo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -745,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/UsersFour.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -819,6 +747,45 @@
     <entry file="file://$PROJECT_DIR$/src/components/CabinetPage/CabinetPage.module.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/progressReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" selection-start-line="30" selection-end-line="37" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/UserAchievements.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+          <folding>
+            <element signature="e#304#334#0" />
+            <element signature="e#360#443#0" />
+            <element signature="e#384#435#0" />
+            <element signature="n#!!block;n#componentDidMount#0;n#Progress#0" />
+            <element signature="e#569#593#0" />
+            <element signature="e#993#1513#0" />
+            <element signature="e#1075#1482#0" />
+            <element signature="e#1360#1450#0" />
+            <element signature="e#2840#3064#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -826,13 +793,6 @@
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/progressReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" selection-start-line="30" selection-end-line="37" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -853,37 +813,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/UserAchievements.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/TeamTodo.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        <state relative-caret-position="790">
+          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Tasks.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        <state relative-caret-position="216">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Task/Task.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Task/Task.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
-            <element signature="e#304#334#0" />
-            <element signature="e#360#443#0" />
-            <element signature="e#384#435#0" />
-            <element signature="n#!!block;n#componentDidMount#0;n#Progress#0" />
-            <element signature="e#569#593#0" />
-            <element signature="e#779#3087#0" />
-            <element signature="e#937#2248#0" />
-            <element signature="e#993#1513#0" />
-            <element signature="e#1075#1482#0" />
-            <element signature="e#1360#1450#0" />
-            <element signature="e#1538#2107#0" />
-            <element signature="e#1618#2076#0" />
-            <element signature="e#1903#2044#0" />
-            <element signature="e#2132#2221#0" />
-            <element signature="e#2269#2819#0" />
-            <element signature="e#2361#2484#0" />
-            <element signature="e#2509#2640#0" />
-            <element signature="e#2665#2792#0" />
-            <element signature="e#2840#3064#0" />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/Tasks/Tasks.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

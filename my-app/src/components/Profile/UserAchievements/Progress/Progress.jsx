@@ -52,12 +52,12 @@ class Progress extends React.Component {
                              A50 50 90 0 1 55 5
                              Z"
                                       style={{
-                                          strokeDashoffset: 555 - (555 - 241) * this.props.percentage / 100
+                                          strokeDashoffset: 555 - (555 - 241) * 59 / 100
                                       }}
                                 />
                             </svg>
-                            <div>
-                                {this.props.percentage}%
+                            <div className={s.percentage}>
+                                59%
                             </div>
                         </div>
                         <div className={cn(s.additional, {[s.opened]: this.state.opened})}>

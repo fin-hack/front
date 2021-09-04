@@ -1,5 +1,5 @@
 .wrapper {
-    padding: 20px 60px;
+    padding: 40px 80px;
     background: linear-gradient(135deg, #FFFFFF 0%, #EDEDED 100%);
     grid-row: 1 / 3;
 }

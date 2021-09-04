@@ -1,0 +1,11 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-auto-rows: auto;
+    grid-gap: 20px;
+}
+
+.wrapper.empty {
+    display: flex;
+    justify-content: center;
+}
