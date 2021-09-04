@@ -12,6 +12,9 @@ const getInstance = () =>
 export const usersAPI = {
     getUserData() {
         return getInstance().get('/users/').then(resp => resp.data);
+    },
+    getValues() {
+        return getInstance().get(`/users/values?day=${(new Date()).getDay()}`).then(resp => resp.data);
     }
 };
 
