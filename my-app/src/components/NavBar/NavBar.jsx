@@ -1,6 +1,9 @@
 import React from 'react';
 import s from './NavBar.module.css';
-import {NavLink} from "react-router-dom";
+import {NavLink, withRouter} from "react-router-dom";
+import {logout} from "../../store/reducers/loginPageReducer";
+import {connect} from "react-redux";
+import {compose} from "redux";
 
 class NavBar extends React.Component {
     render() {
@@ -8,21 +11,31 @@ class NavBar extends React.Component {
             return (
                 <NavLink key={page.name}
                          to={page.url}
+                         exact={true}
                          className={s.link}
-                         style={{
-                             background: `url(${page.icon})`,
-                         }}
+                         activeClassName={s.active}
                 >
+                    {page.icon}
                 </NavLink>
             )
         });
 
         return (
             <nav className={s.nav}>
-                {links}
+                <div className={s.links}>
+                    {links}
+                </div>
+                <img src={process.env.PUBLIC_URL + '/assets/SignOut.svg'}
+                     className={s.link}
+                     alt=''
+                     onClick={() => this.props.logout()}
+                />
             </nav>
         )
     }
 }
 
-export default NavBar;
+export default compose(
+    connect(null, {logout}),
+    withRouter
+)(NavBar);

@@ -6,7 +6,7 @@ class Chart extends React.Component {
     render() {
         return (
             <div className={cs.card}>
-                chart
+                <div className={cs.title}>chart</div>
             </div>
         )
     }

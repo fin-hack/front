@@ -7,7 +7,7 @@ class SoftSkills extends React.Component {
     render() {
         return (
             <div className={cn(s.wrapper, cs.card)}>
-                SoftSkills
+                <div className={cs.title}>soft skills</div>
             </div>
         )
     }
