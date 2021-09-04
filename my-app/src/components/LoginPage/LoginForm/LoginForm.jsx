@@ -1,5 +1,5 @@
 import React from 'react';
-import {Field, reduxForm} from 'redux-form';
+import {reduxForm} from 'redux-form';
 import {createField, Input} from '../../common/FormsControls/FormsControls';
 import {connect} from "react-redux";
 import s from './LoginForm.module.css';
@@ -11,13 +11,14 @@ const LoginForm = ({handleSubmit, ...props}) => {
             <div className={s.inputs}>
                 {createField('Email', 'email', Input)}
                 {createField('Password', 'password', Input, {type: 'password'})}
+                <div className={s.problem}>Problems?</div>
             </div>
             <div className={s.mood}>
-                mood
+                <div>mood</div>
                 <div className={s.options}>
-                    <MoodOption value={'bad'}/>
-                    <MoodOption value={'well'}/>
-                    <MoodOption value={'perfect'}/>
+                    <MoodOption icon={process.env.PUBLIC_URL + '/assets/Smiley.svg'} value={'perfect'}/>
+                    <MoodOption icon={process.env.PUBLIC_URL + '/assets/SmileyMeh.svg'} value={'well'}/>
+                    <MoodOption icon={process.env.PUBLIC_URL + '/assets/SmileySad.svg'} value={'sad'}/>
                 </div>
             </div>
             <button className={s.submit}>

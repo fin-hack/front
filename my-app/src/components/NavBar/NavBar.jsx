@@ -9,6 +9,9 @@ class NavBar extends React.Component {
                 <NavLink key={page.name}
                          to={page.url}
                          className={s.link}
+                         style={{
+                             background: `url(${page.icon})`,
+                         }}
                 >
                 </NavLink>
             )

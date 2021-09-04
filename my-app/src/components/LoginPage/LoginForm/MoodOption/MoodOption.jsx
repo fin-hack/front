@@ -2,10 +2,10 @@ import React from 'react';
 import {Field} from "redux-form";
 import s from './MoodOption.module.css';
 
-const MoodOption = ({value, ...props}) => {
+const MoodOption = ({value, icon, ...props}) => {
     return (
         <label>
-            <div className={s.circle}> </div>
+            <img src={icon} className={s.circle}/>
             <div className={s.hider}>
                 <Field name={'mood'} component={'input'} type={'radio'} value={value} />
             </div>

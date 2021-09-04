@@ -4,6 +4,7 @@ import {connect} from "react-redux";
 import {login} from "../../store/reducers/loginPageReducer";
 import {Redirect} from "react-router-dom";
 import s from './LoginPage.module.css';
+import Logo from "../common/Logo";
 
 class LoginPage extends React.Component {
 
@@ -15,10 +16,13 @@ class LoginPage extends React.Component {
         if (this.props.isAuth) return <Redirect to={'/cabinet'}/>;
 
         return (
-            <div className={s.wrapper}>
+            <div className={s.wrapper}
+                 style={{
+                     backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/loginBackground.svg'})`
+                 }}
+            >
                 <div className={s.card}>
-                    <div>Logo</div>
-                    <div>Welcome</div>
+                    <Logo/>
                     <LoginForm onSubmit={this.onSubmit}/>
                 </div>
             </div>

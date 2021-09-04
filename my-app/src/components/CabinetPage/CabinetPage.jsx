@@ -14,12 +14,14 @@ const SECTIONS = [
     {
         url: '/cabinet/',
         Component: Profile,
-        name: 'profile'
+        name: 'profile',
+        icon: process.env.PUBLIC_URL + 'assets/IdentificationBadge.svg'
     },
     {
         url: '/cabinet/team/',
         Component: Team,
-        name: 'team'
+        name: 'team',
+        icon: process.env.PUBLIC_URL + 'assets/Suitcase.svg'
     }
 ];
 

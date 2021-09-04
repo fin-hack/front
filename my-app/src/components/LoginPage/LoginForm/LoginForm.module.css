@@ -1,33 +1,51 @@
 .form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 70%;
+    gap: 20px;
+}
+
+.problem {
+    align-self: flex-start;
+    color:rgba(0, 0, 0, 0.5);
 }
 
 .mood {
     padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .options {
     display: flex;
-    gap: 10px;
+    gap: 40px;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     padding: 10px;
+    width: 100%;
+}
+
+.inputs * {
+    width: 100%;
 }
 
 .submit {
     align-self: center;
-    padding: 5px 20%;
-    border-radius: 20px;
-    background: cornflowerblue;
+    padding: 22px 142px;
+    border-radius: 16px;
     border: none;
     width: min-content;
     color: white;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+    background: #2F589A;
 }
