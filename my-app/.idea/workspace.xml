@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a888f8-83af-4af2-bcf9-8a3946adec01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/nut.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Team/TeamCard/User/User.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Team/TeamCard/User/User.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Team/TeamTodo/TeamTodo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Team/TeamTodo/TeamTodo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserAchievements/UserAchievements.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserAchievements/UserAchievements.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserAchievements/UserAchievements.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserAchievements/UserAchievements.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserCard/Quote.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserCard/Quote.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserCard/Score.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserCard/Score.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamInfo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamMembers/TeamMembers.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamMembers/TeamMembers.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserCard/UserCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserCard/UserCard.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserCard/UserInfo/UserInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserCard/UserInfo/UserInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CabinetPage/CabinetPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CabinetPage/CabinetPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamMembers/TeamMembers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamMembers/TeamMembers.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/Team.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/Team.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/Team.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/Team.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/TeamAchievements/TeamAchievements.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/TeamAchievements/TeamAchievements.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/TeamAchievements/TeamAchievements.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/TeamAchievements/TeamAchievements.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/TeamCard/TeamCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/TeamCard/TeamCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/TeamCard/TeamCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/TeamCard/TeamCard.module.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,17 +27,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/UserAchievements.module.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Profile/Profile.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Team/Team.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
@@ -51,10 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Profile/UserCard/UserCard.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Team/TeamCard/TeamCard.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="528">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -63,10 +52,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Profile/UserCard/UserInfo/UserInfo.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamMembers/TeamMembers.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="384">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -75,28 +76,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Profile/UserCard/UserInfo/UserInfo.module.css">
+        <entry file="file://$PROJECT_DIR$/src/components/Team/TeamCard/User/User.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Profile/UserCard/UserCard.module.css">
+        <entry file="file://$PROJECT_DIR$/src/components/Team/TeamCard/User/User.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Profile/Profile.module.css">
+        <entry file="file://$PROJECT_DIR$/src/components/Team/TeamCard/TeamCard.module.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/App/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/CabinetPage/CabinetPage.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,24 +152,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/CabinetPage/Tracker/Tracker.module.css" />
-        <option value="$PROJECT_DIR$/src/components/CabinetPage/Tracker/Tracker.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Achievements/Achievements.jsx" />
-        <option value="$PROJECT_DIR$/src/store/reducers/appReducer.js" />
         <option value="$PROJECT_DIR$/src/components/Profile/Profile.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Team/Team.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Team/Team.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Team/TeamCard/TeamCard.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Team/TeamCard/TeamCard.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Team/TeamAchievements/TeamAchievements.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Team/TeamAchievements/TeamAchievements.module.css" />
         <option value="$PROJECT_DIR$/src/components/common/withPreloader/withPreloader.jsx" />
         <option value="$PROJECT_DIR$/src/store/reducers/userDataReducer.js" />
         <option value="$PROJECT_DIR$/src/store/store.js" />
         <option value="$PROJECT_DIR$/src/utils/api.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/teamReducer.js" />
         <option value="$PROJECT_DIR$/src/components/common/WithPreloader/WithPreloader.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamMembers/TeamMembers.jsx" />
         <option value="$PROJECT_DIR$/src/components/Profile/UserCard/UserCard.jsx" />
         <option value="$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.module.css" />
         <option value="$PROJECT_DIR$/src/components/Profile/UserCard/UserInfo/UserInfo.jsx" />
@@ -157,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/components/LoginPage/LoginForm/LoginForm.module.css" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/components/App/App.jsx" />
-        <option value="$PROJECT_DIR$/src/components/CabinetPage/CabinetPage.jsx" />
         <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" />
         <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.module.css" />
         <option value="$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.jsx" />
@@ -175,6 +191,18 @@
         <option value="$PROJECT_DIR$/src/components/Profile/UserCard/UserInfo/UserInfo.module.css" />
         <option value="$PROJECT_DIR$/src/components/Profile/UserCard/UserCard.module.css" />
         <option value="$PROJECT_DIR$/src/components/Profile/UserAchievements/UserAchievements.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Team/TeamAchievements/TeamAchievements.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Team/Team.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/TeamTodo.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/TeamTodo.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Team/TeamAchievements/TeamAchievements.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Team/Team.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Team/TeamCard/User/User.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Team/TeamCard/User/User.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Team/TeamCard/TeamCard.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Team/TeamCard/TeamCard.module.css" />
+        <option value="$PROJECT_DIR$/src/components/CabinetPage/CabinetPage.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamMembers/TeamMembers.jsx" />
       </list>
     </option>
   </component>
@@ -254,21 +282,6 @@
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginPage" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginForm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="NavBar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -302,6 +315,30 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Profile" type="462c0819:PsiDirectoryNode" />
               <item name="UserCard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Team" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Team" type="462c0819:PsiDirectoryNode" />
+              <item name="TeamCard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Team" type="462c0819:PsiDirectoryNode" />
+              <item name="TeamCard" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
@@ -363,12 +400,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630685720727</updated>
-      <workItem from="1630685725876" duration="45143000" />
+      <workItem from="1630685725876" duration="47862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45143000" />
+    <option name="totallyTimeSpent" value="47862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -398,87 +435,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/userDataReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/WithPreloader/WithPreloader.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/teamReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamCard/TeamCard.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.module.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/SoftSkills/SoftSkills.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/SortDescending.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -616,16 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -643,16 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CabinetPage/CabinetPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-576">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamMembers/TeamMembers.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -660,37 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamMembers/TeamMembers.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/UserAchievements.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -738,16 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Profile/Profile.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Profile/UserCard/UserCard.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -768,17 +667,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/UserAchievements.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Profile/UserCard/UserInfo/UserInfo.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Profile/Profile.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -789,10 +688,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/UserAchievements.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Profile/Profile.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Team/Team.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="53" lean-forward="true" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamAchievements/TeamAchievements.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamAchievements/TeamAchievements.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/TeamTodo.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamTodo/TeamTodo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Team/Team.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamCard/User/User.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamCard/User/User.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamCard/TeamCard.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Profile/Profile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CabinetPage/CabinetPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Team/TeamCard/TeamCard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamMembers/TeamMembers.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/Progress/Progress.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

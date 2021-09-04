@@ -7,7 +7,7 @@ class TeamMembers extends React.Component {
             <div className={s.wrapper}>
                 {this.props.members.map(member => {
                     return (
-                        <div>
+                        <div key={member.token}>
                             {member.first_name || 'first name'} {member.last_name || 'last name'}
                         </div>
                     )

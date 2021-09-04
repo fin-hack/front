@@ -1,3 +1,36 @@
 .wrapper {
     height: 100%;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: grid;
+    grid-template: min-content auto min-content / 100%;
+    grid-gap: 30px;
+    padding: 20px 40px;
+}
+
+.usersBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.usersBoxTitle {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #9B9B9B;
+}
+
+.leaveButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background: #C4C4C4;
+    border-radius: 8px;
+    color: #9B9B9B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
 }

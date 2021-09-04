@@ -2,6 +2,7 @@ import React from 'react';
 import s from './Team.module.css';
 import TeamCard from "./TeamCard/TeamCard";
 import TeamAchievements from "./TeamAchievements/TeamAchievements";
+import TeamTodo from "./TeamTodo/TeamTodo";
 
 class Team extends React.Component {
     render() {
@@ -9,6 +10,7 @@ class Team extends React.Component {
             <div className={s.wrapper}>
                 <TeamCard />
                 <TeamAchievements />
+                <TeamTodo />
             </div>
         )
     }

@@ -1,17 +1,16 @@
 import React from 'react';
-import s from './TeamAchievements.module.css';
+import s from './TeamTodo.module.css';
 import cs from '../../../common.module.css';
 import cn from 'classnames';
 
-class TeamAchievements extends React.Component {
+class TeamTodo extends React.Component {
     render() {
         return (
             <div className={cn(cs.card, s.wrapper)}>
-                <div>done</div>
-                <div>todo</div>
+                Team todo
             </div>
         )
     }
 }
 
-export default TeamAchievements;
+export default TeamTodo;

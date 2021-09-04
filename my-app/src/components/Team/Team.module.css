@@ -1,4 +1,8 @@
 .wrapper {
     display: grid;
-    grid-template: 100% / 40% 60%;
+    grid-template: 60% 40% / minmax(15vw, 20vw) auto;
+    padding: 20px;
+    box-sizing: border-box;
+    grid-gap: 20px;
+    height: calc(100% - 20px);
 }
