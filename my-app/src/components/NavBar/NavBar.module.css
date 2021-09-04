@@ -1,5 +1,6 @@
 .nav {
     display: flex;
+    height: 100%;
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
@@ -7,6 +8,9 @@
     box-sizing: border-box;
     background: #1f2f49;
     border-radius: 0 16px 16px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .links {

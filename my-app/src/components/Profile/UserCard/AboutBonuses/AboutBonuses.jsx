@@ -6,7 +6,7 @@ import cn from 'classnames';
 
 class AboutBonuses extends React.Component {
     state = {
-        opened: true,
+        opened: false,
     };
 
     toggleOpened = () => {

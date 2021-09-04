@@ -15,6 +15,9 @@ export const usersAPI = {
     },
     getValues() {
         return getInstance().get(`/users/values?day=${(new Date()).getDate()}`).then(resp => resp.data);
+    },
+    getChart(count) {
+        return getInstance().get(`/users/graph_values?count=${count}`).then(resp => resp.data);
     }
 };
 

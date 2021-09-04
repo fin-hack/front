@@ -14,22 +14,24 @@ class NavBar extends React.Component {
                          className={s.link}
                          activeClassName={s.active}
                 >
-                    <page.NavComponent />
+                    <page.NavComponent/>
                 </NavLink>
             )
         });
 
         return (
-            <nav className={s.nav}>
-                <div className={s.links}>
-                    {links}
-                </div>
-                <img src={process.env.PUBLIC_URL + '/assets/SignOut.svg'}
-                     className={s.link}
-                     alt=''
-                     onClick={() => this.props.logout()}
-                />
-            </nav>
+            <div>
+                <nav className={s.nav}>
+                    <div className={s.links}>
+                        {links}
+                    </div>
+                    <img src={process.env.PUBLIC_URL + '/assets/SignOut.svg'}
+                         className={s.link}
+                         alt=''
+                         onClick={() => this.props.logout()}
+                    />
+                </nav>
+            </div>
         )
     }
 }

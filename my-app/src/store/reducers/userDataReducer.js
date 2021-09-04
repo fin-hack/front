@@ -4,6 +4,8 @@ const SET_IS_AUTH = 'userData/SET-IS-AUTH';
 const SET_IS_FETCHING = 'userData/SET-IS-FETCHING';
 const SET_USER_DATA = 'userData/SET-USER-DATA';
 const SET_IS_FETCHING_PROGRESS = 'progress/SET-IS-FETCHING';
+const SET_IS_FETCHING_CHART = 'chart/SET-IS-FETCHING';
+const SET_CHART = 'chart/SET-CHART';
 const SET_PROGRESS = 'progress/SET-PROGRESS';
 
 let initialState = {
@@ -12,6 +14,8 @@ let initialState = {
     userData: null,
     isFetchingProgress: false,
     progress: null,
+    chart: null,
+    isFetchingChart: false,
 };
 
 const userDataReducer = (state = initialState, action) => {
@@ -41,6 +45,16 @@ const userDataReducer = (state = initialState, action) => {
                 ...state,
                 progress: action.progress
             };
+        case SET_IS_FETCHING_CHART:
+            return {
+                ...state,
+                isFetchingChart: action.isFetching
+            };
+        case SET_CHART:
+            return {
+                ...state,
+                chart: action.chart
+            };
         default:
             return state;
     }
@@ -51,6 +65,8 @@ export const setIsFetching = (isFetching) => ({type: SET_IS_FETCHING, isFetching
 export const setUserData = (userData) => ({type: SET_USER_DATA, userData});
 export const setIsFetchingProgress = (isFetching) => ({type: SET_IS_FETCHING_PROGRESS, isFetching});
 export const setProgress = (progress) => ({type: SET_PROGRESS, progress});
+export const setChart = (chart) => ({type: SET_CHART, chart});
+export const setIsFetchingChart = (isFetching) => ({type: SET_IS_FETCHING_CHART, isFetching});
 
 export const getUserData = () => async (dispatch) => {
     dispatch(setIsFetching(true));
@@ -66,6 +82,13 @@ export const getUserProgress = () => async (dispatch) => {
         dispatch(setProgress(data));
         dispatch(setIsFetchingProgress(false));
     }, 1000);
+};
+
+export const getChart = () => async (dispatch) => {
+    dispatch(setIsFetchingChart(true));
+    const data = await usersAPI.getChart((new Date()).getDate());
+    dispatch(setChart(data));
+    dispatch(setIsFetchingChart(false));
 };
 
 export default userDataReducer;
