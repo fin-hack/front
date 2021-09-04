@@ -1,0 +1,25 @@
+.wrapper {
+    position: relative;
+}
+
+.wrapper svg {
+    width: 100%;
+    height: 100%;
+}
+
+.dot {
+    width: 16px;
+    height: 16px;
+    background: #F92F2F;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translate(-100%, 0%);
+    opacity: 0;
+    transition: .3s;
+}
+
+.dot.active {
+    opacity: 1;
+}

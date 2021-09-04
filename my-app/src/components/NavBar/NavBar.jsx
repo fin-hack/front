@@ -14,7 +14,7 @@ class NavBar extends React.Component {
                          className={s.link}
                          activeClassName={s.active}
                 >
-                    {page.icon}
+                    <page.NavComponent />
                 </NavLink>
             )
         });

@@ -9,13 +9,20 @@ import {Route} from "react-router-dom";
 import Team from "../Team/Team";
 import s from './CabinetPage.module.css';
 import NavBar from "../NavBar/NavBar";
+import NotificationsButton from "../NavBar/NotificationsButton/NotificationsButton";
 
 const SECTIONS = [
+    {
+        url: '/cabinet/notifications/',
+        Component: () => <div>notifs</div>,
+        name: 'notifications',
+        NavComponent: NotificationsButton,
+    },
     {
         url: '/cabinet/profile/',
         Component: Profile,
         name: 'profile',
-        icon: <svg width="35" height="32" viewBox="0 0 35 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        NavComponent: () => <svg width="35" height="32" viewBox="0 0 35 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M17.5 21.625C23.1609 21.625 27.75 17.0359 27.75 11.375C27.75 5.71408 23.1609 1.125 17.5 1.125C11.8391 1.125 7.25 5.71408 7.25 11.375C7.25 17.0359 11.8391 21.625 17.5 21.625Z" stroke="white" strokeWidth="2" strokeMiterlimit="10"/>
             <path d="M1.96289 30.5923C3.53812 27.8657 5.80314 25.6017 8.53039 24.0276C11.2576 22.4536 14.3511 21.625 17.5 21.625C20.6489 21.625 23.7423 22.4537 26.4695 24.0278C29.1968 25.6019 31.4617 27.866 33.0369 30.5926" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
@@ -25,7 +32,7 @@ const SECTIONS = [
         url: '/cabinet/team/',
         Component: Team,
         name: 'team',
-        icon: <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+        NavComponent: () => <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10.3125 33.2812C13.6952 33.2812 16.4375 30.539 16.4375 27.1562C16.4375 23.7735 13.6952 21.0312 10.3125 21.0312C6.92976 21.0312 4.1875 23.7735 4.1875 27.1562C4.1875 30.539 6.92976 33.2812 10.3125 33.2812Z" stroke="#9F9F9F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M1.12402 37.8746C2.19392 36.4484 3.58113 35.2909 5.17582 34.4936C6.77052 33.6964 8.52891 33.2813 10.3118 33.2813C12.0947 33.2812 13.8531 33.6962 15.4478 34.4934C17.0426 35.2906 18.4298 36.448 19.4998 37.8742" stroke="#9F9F9F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M10.3125 13.375C13.6952 13.375 16.4375 10.6327 16.4375 7.25C16.4375 3.86726 13.6952 1.125 10.3125 1.125C6.92976 1.125 4.1875 3.86726 4.1875 7.25C4.1875 10.6327 6.92976 13.375 10.3125 13.375Z" stroke="#9F9F9F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -35,7 +42,7 @@ const SECTIONS = [
             <path d="M28.6875 13.375C32.0702 13.375 34.8125 10.6327 34.8125 7.25C34.8125 3.86726 32.0702 1.125 28.6875 1.125C25.3048 1.125 22.5625 3.86726 22.5625 7.25C22.5625 10.6327 25.3048 13.375 28.6875 13.375Z" stroke="#9F9F9F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M19.499 17.9684C20.5689 16.5422 21.9561 15.3846 23.5508 14.5874C25.1455 13.7901 26.9039 13.375 28.6868 13.375C30.4697 13.375 32.2281 13.79 33.8228 14.5871C35.4176 15.3843 36.8048 16.5418 37.8748 17.9679" stroke="#9F9F9F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
-    },
+    }
 ];
 
 class Cabinet extends React.Component {
