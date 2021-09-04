@@ -9,6 +9,12 @@ const getInstance = () =>
         }
     });
 
+export const usersAPI = {
+    getUserData() {
+        return getInstance().get('/users/').then(resp => resp.data);
+    }
+};
+
 export const authAPI = {
     login(username, email, password) {
         /*return getInstance().post(`auth/login/`, {
