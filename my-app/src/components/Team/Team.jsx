@@ -18,11 +18,14 @@ class Team extends React.Component {
     render() {
         return (
             <WithPreloader in={!this.props.isFetching} classNames={'page'}>
-                <div className={s.wrapper}>
-                    <TeamCard />
-                    <TeamAchievements />
-                    <TeamTodo />
-                </div>
+                {
+                    this.props.users &&
+                    <div className={s.wrapper}>
+                        <TeamCard />
+                        <TeamAchievements />
+                        <TeamTodo />
+                    </div>
+                }
             </WithPreloader>
         )
     }
