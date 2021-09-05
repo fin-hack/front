@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a888f8-83af-4af2-bcf9-8a3946adec01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.module.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+            <state relative-caret-position="239">
+              <caret line="19" column="82" lean-forward="true" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -39,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            <state relative-caret-position="407">
+              <caret line="51" column="11" lean-forward="true" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -116,7 +117,6 @@
         <option value="$PROJECT_DIR$/src/components/LeaderboardSection/Trophies/Trophies.jsx" />
         <option value="$PROJECT_DIR$/src/components/Profile/UserCard/UserInfo/UserInfo.jsx" />
         <option value="$PROJECT_DIR$/src/components/Profile/UserCard/TeamInfo/TeamInfo.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.jsx" />
         <option value="$PROJECT_DIR$/src/components/Profile/UserAchievements/Market/Market.jsx" />
         <option value="$PROJECT_DIR$/src/components/Profile/UserAchievements/Market/Good/Good.jsx" />
         <option value="$PROJECT_DIR$/src/components/Profile/UserCard/UserCard.jsx" />
@@ -136,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/components/LeaderboardSection/Leaderboard/TeamsLeaderboard/TeamsLeaderboard.module.css" />
         <option value="$PROJECT_DIR$/src/components/Team/TeamTodo/TodoTitle/TodoTitle.jsx" />
         <option value="$PROJECT_DIR$/src/components/LeaderboardSection/Leaderboard/Leaderboard.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.jsx" />
         <option value="$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.module.css" />
       </list>
     </option>
@@ -643,12 +644,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630685720727</updated>
-      <workItem from="1630685725876" duration="112242000" />
+      <workItem from="1630685725876" duration="113189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112242000" />
+    <option name="totallyTimeSpent" value="113189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1108,8 +1109,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+        <state relative-caret-position="239">
+          <caret line="19" column="82" lean-forward="true" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1118,8 +1119,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Profile/UserAchievements/Chart/Chart.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        <state relative-caret-position="407">
+          <caret line="51" column="11" lean-forward="true" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
         </state>
       </provider>
     </entry>

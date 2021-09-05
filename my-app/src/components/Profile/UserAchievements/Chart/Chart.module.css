@@ -49,10 +49,11 @@
 
 .squirrel {
     position: absolute;
-    -webkit-transform: translate(0, -45%) scale(.7);
-    -moz-transform: translate(0, -45%) scale(.7);
-    -ms-transform: translate(0, -45%) scale(.7);
-    -o-transform: translate(0, -45%) scale(.7);
-    transform: translate(0, -45%) scale(.7);
+    top: 0;
+    -webkit-transform: translate(0, -5%) scale(.7);
+    -moz-transform: translate(0, -5%) scale(.7);
+    -ms-transform: translate(0, -5%) scale(.7);
+    -o-transform: translate(0, -5%) scale(.7);
+    transform: translate(0, -5%) scale(.7);
     transform-origin: center bottom;
 }

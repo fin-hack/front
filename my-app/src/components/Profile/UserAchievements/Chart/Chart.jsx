@@ -18,7 +18,6 @@ class Chart extends React.Component {
     render() {
 
         const data = this.props.chart?.values || [...Array(5).keys()].map(i => 0);
-
         return (
             <WithPreloader in={!this.props.isFetching} classNames={'page'}>
 
