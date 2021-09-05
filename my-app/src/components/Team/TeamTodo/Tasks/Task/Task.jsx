@@ -9,7 +9,7 @@ class Task extends React.Component {
                 <div className={s.number}>Задание {this.props.task.id}</div>
                 <div className={s.description}>{this.props.task.name}</div>
                 <div className={s.deadline}>
-                    <Progressbar max={100} value={Math.random() * 100}/>
+                    <Progressbar max={this.props.task.goal_score} value={this.props.task.now_score}/>
                 </div>
             </div>
         )

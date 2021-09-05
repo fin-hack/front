@@ -16,17 +16,17 @@ const ROUTES = [
     {
         url: '/cabinet/team/done',
         Component: Done,
-        name: 'done'
+        name: 'Законченные вызовы'
     },
     {
         url: '/cabinet/team/',
         Component: Current,
-        name: 'current'
+        name: 'Вызовы в процессе'
     },
     {
         url: '/cabinet/team/pool',
         Component: Pool,
-        name: 'pool'
+        name: 'Большие вызовы'
     },
 ];
 

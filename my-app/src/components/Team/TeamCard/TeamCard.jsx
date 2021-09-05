@@ -18,9 +18,6 @@ class TeamCard extends React.Component {
                     <div className={s.usersBoxTitle}>Участники</div>
                     {users}
                 </div>
-                <div className={s.teamChat}>
-                    Чат команды
-                </div>
             </div>
         )
     }

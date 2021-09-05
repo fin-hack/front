@@ -10,7 +10,7 @@ import cn from 'classnames';
 class TeamInfo extends React.Component {
 
     componentDidMount() {
-        !this.props.teamData && this.props.getTeamData(this.props.id);
+        !this.props.teamData && this.props.userData && this.props.getTeamData(this.props.userData._team);
     }
 
     render() {
