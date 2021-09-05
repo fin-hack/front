@@ -1,9 +1,10 @@
 import React from 'react';
-import {reduxForm} from 'redux-form';
+import {Field, reduxForm} from 'redux-form';
 import {createField, Input} from '../../common/FormsControls/FormsControls';
 import {connect} from "react-redux";
 import s from './LoginForm.module.css';
 import MoodOption from "./MoodOption/MoodOption";
+import {required} from "../../../utils/validators";
 
 const LoginForm = ({handleSubmit, ...props}) => {
     return (
@@ -16,9 +17,26 @@ const LoginForm = ({handleSubmit, ...props}) => {
             <div className={s.mood}>
                 <div>mood</div>
                 <div className={s.options}>
-                    <MoodOption icon={process.env.PUBLIC_URL + '/assets/Smiley.svg'} value={'perfect'}/>
-                    <MoodOption icon={process.env.PUBLIC_URL + '/assets/SmileyMeh.svg'} value={'well'}/>
-                    <MoodOption icon={process.env.PUBLIC_URL + '/assets/SmileySad.svg'} value={'sad'}/>
+                    <Field validate={[required]}
+                           name={'mood'}
+                           component={MoodOption}
+                           type={'radio'}
+                           value={'perfect'}
+                    />
+
+                    <Field validate={[required]}
+                           name={'mood'}
+                           component={MoodOption}
+                           type={'radio'}
+                           value={'well'}
+                    />
+
+                    <Field validate={[required]}
+                           name={'mood'}
+                           component={MoodOption}
+                           type={'radio'}
+                           value={'sad'}
+                    />
                 </div>
             </div>
             <button className={s.submit}>
