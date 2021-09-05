@@ -1,12 +1,13 @@
 import React from 'react';
 import s from './TodoTitle.module.css';
+import {getFullPath} from "../../../../utils/utils";
 
 class TodoTitle extends React.Component {
     render() {
         return (
             <div className={s.wrapper}>
                 <div className={s.ava}>
-
+                    <img src={getFullPath('platinum.svg')} alt=''/>
                 </div>
                 <div className={s.infoGroup}>
                     <div>{this.props.name}</div>

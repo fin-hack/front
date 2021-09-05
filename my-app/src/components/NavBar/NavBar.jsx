@@ -4,6 +4,7 @@ import {NavLink, withRouter} from "react-router-dom";
 import {logout} from "../../store/reducers/loginPageReducer";
 import {connect} from "react-redux";
 import {compose} from "redux";
+import NotificationsButton from "./NotificationsButton/NotificationsButton";
 
 class NavBar extends React.Component {
     render() {
@@ -23,6 +24,7 @@ class NavBar extends React.Component {
             <div>
                 <nav className={s.nav}>
                     <div className={s.links}>
+                        <NotificationsButton />
                         {links}
                     </div>
                     <img src={process.env.PUBLIC_URL + '/assets/SignOut.svg'}

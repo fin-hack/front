@@ -13,7 +13,9 @@ class UserInfo extends React.Component {
                 <div className={s.trophey}>
                     <img src={getFullPath('platinum.svg')} alt=""/>
                 </div>
-                <div className={s.ava}> </div>
+                <div className={s.ava}>
+                    <img src={getFullPath('ava.svg')} alt=""/>
+                </div>
                 <div className={s.names}>
                     <div>{this.props.userData.first_name || 'first name'} {this.props.userData.last_name || 'last name'}</div>
                 </div>

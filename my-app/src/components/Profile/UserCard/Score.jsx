@@ -2,6 +2,7 @@ import React from 'react';
 import s from './UserCard.module.css';
 import cs from '../../../common.module.css';
 import cn from 'classnames';
+import {NavLink} from "react-router-dom";
 
 const Score = (props) => {
     return (
@@ -11,9 +12,9 @@ const Score = (props) => {
                     <img src={process.env.PUBLIC_URL + '/assets/nut.svg'} alt=''/>
                     {props.score}
                 </div>
-                <div className={s.rateLink}>
+                <NavLink className={s.rateLink} to={'/cabinet/leaderboard/personal'}>
                     Общий рейтинг
-                </div>
+                </NavLink>
             </div>
             <div className={cs.title}>Общее число каштанов</div>
         </div>

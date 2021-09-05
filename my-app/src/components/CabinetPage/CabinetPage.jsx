@@ -9,16 +9,10 @@ import {Route} from "react-router-dom";
 import Team from "../Team/Team";
 import s from './CabinetPage.module.css';
 import NavBar from "../NavBar/NavBar";
-import NotificationsButton from "../NavBar/NotificationsButton/NotificationsButton";
 import LeaderboardSection from "../LeaderboardSection/LeaderboardSection";
+import Notifications from "../Notifications/Notifications";
 
 const SECTIONS = [
-    {
-        url: '/cabinet/notifications/',
-        Component: () => <div>notifs</div>,
-        name: 'notifications',
-        NavComponent: NotificationsButton,
-    },
     {
         url: '/cabinet/profile/',
         Component: Profile,
@@ -87,6 +81,7 @@ class Cabinet extends React.Component {
                 <div className={s.sections}>
                     {sections}
                 </div>
+                <Notifications/>
             </div>
         )
     }
