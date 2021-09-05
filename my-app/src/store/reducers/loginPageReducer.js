@@ -1,5 +1,5 @@
 import {authAPI} from "../../utils/api";
-import {setIsAuth} from "./userDataReducer";
+import {setIsAuth, setKey} from "./userDataReducer";
 import {setApiKey} from "../../utils/apiKeyManager";
 
 const SET_IS_FETCHING = 'loginPage/set-is-fetching';
@@ -9,7 +9,7 @@ const initialState = {
 };
 
 const loginPageReducer = (state = initialState, action) => {
-    switch(action.type) {
+    switch (action.type) {
         case SET_IS_FETCHING:
             return {
                 ...state,
@@ -27,6 +27,7 @@ export const login = (email, password, mood) => async (dispatch) => {
     const res = await authAPI.login(email, password, mood);
     if (res.key) {
         setApiKey(res.key);
+        dispatch(setKey(res.key));
         dispatch(setIsAuth(true));
     }
     dispatch(setIsFetching(false));
@@ -34,6 +35,7 @@ export const login = (email, password, mood) => async (dispatch) => {
 
 export const logout = () => (dispatch) => {
     dispatch(setIsAuth(false));
+    dispatch(setKey(null));
 };
 
 export default loginPageReducer;

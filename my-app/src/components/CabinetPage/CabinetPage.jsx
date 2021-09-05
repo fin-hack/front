@@ -45,7 +45,7 @@ const SECTIONS = [
         </svg>
     },
     {
-        url: '/cabinet/leaderboard/personal',
+        url: '/cabinet/leaderboard/',
         Component: LeaderboardSection,
         name: 'leaderboard',
         NavComponent: () => <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">

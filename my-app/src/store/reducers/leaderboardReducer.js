@@ -1,7 +1,62 @@
 import {usersAPI} from "../../utils/api";
 
 const initialState = {
-    personal: null,
+    personal: [
+        {
+            'id': 1,
+            'model': 'OpUser',
+            'fields': {
+                'mail': 'polich@fufu.com',
+                'first_name': 'Andrey',
+                'last_name': 'Kulikov',
+                'score': '1200',
+                'money': '100',
+                'token': '1221',
+                'password': '2112',
+                '_team': null,
+                'docs_count': '4',
+                'attention': null,
+                'impression': null,
+                'stress_tolerance': ''
+            }
+        },
+        {
+            'id':1,
+            'model':'OpUser',
+            'fields':{
+                'mail':'polich@fufu.com',
+                'first_name':'lalal',
+                'last_name':'lalal',
+                'score':'1300',
+                'money':'100',
+                'token': '121',
+                'password': '2112',
+                '_team': null,
+                'docs_count': '4',
+                'attention': null,
+                'impression': null,
+                'stress_tolerance': ''
+            }
+        },
+        {
+            'id':1,
+            'model':'OpUser',
+            'fields':{
+                'mail':'polich@fufu.com',
+                'first_name':'srrdzy',
+                'last_name':'laldzrzdral',
+                'score':'1400',
+                'money':'100',
+                'token': '21',
+                'password': '2112',
+                '_team': null,
+                'docs_count': '4',
+                'attention': null,
+                'impression': null,
+                'stress_tolerance': ''
+            }
+        }
+    ],
     teams: null,
     isFetching: false,
 };

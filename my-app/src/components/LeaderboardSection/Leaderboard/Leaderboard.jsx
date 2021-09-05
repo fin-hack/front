@@ -3,7 +3,7 @@ import s from './Leaderboard.module.css';
 import PersonalLeaderboard from "./PersonalLeaderboard/PersonalLeaderboard";
 import TeamsLeaderboard from "./TeamsLeaderboard/TeamsLeaderboard";
 import {CSSTransition} from "react-transition-group";
-import {Route} from "react-router-dom";
+import {Route, withRouter} from "react-router-dom";
 import Links from "../../Team/TeamTodo/Links/Links";
 
 const ROUTES = [
@@ -20,10 +20,16 @@ const ROUTES = [
 ];
 
 class Leaderboard extends React.Component {
+    componentDidMount() {
+        if (this.props.match.url !== ROUTES[0].url && this.props.match.url !== ROUTES[1].url) {
+            this.props.history.push(ROUTES[0].url);
+        }
+    }
+
     render() {
         const routes = ROUTES.map(route => {
             return (
-                <Route key={route.url} exact path={route.url}>
+                <Route key={route.url} path={route.url}>
                     {
                         ({match}) => {
                             return (
@@ -54,4 +60,4 @@ class Leaderboard extends React.Component {
     }
 }
 
-export default Leaderboard;
+export default withRouter(Leaderboard);

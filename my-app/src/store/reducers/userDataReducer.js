@@ -7,6 +7,7 @@ const SET_PROGRESS = 'userData/SET-PROGRESS';
 const SET_IS_FETCHING_PROGRESS = 'userData/SET-IS-FETCHING-PROGRESS';
 const SET_CHART = 'userData/SET-CHART';
 const SET_IS_FETCHING_CHART = 'userData/SET-IS-FETCHING-CHART';
+const SET_KEY = 'userData/SET-KEY';
 
 let initialState = {
     isAuth: false,
@@ -16,6 +17,7 @@ let initialState = {
     progress: null,
     chart: null,
     isFetchingChart: false,
+    key: null,
 };
 
 const userDataReducer = (state = initialState, action) => {
@@ -55,6 +57,11 @@ const userDataReducer = (state = initialState, action) => {
                 ...state,
                 chart: action.chart
             };
+        case SET_KEY:
+            return {
+                ...state,
+                key: action.key
+            };
         default:
             return state;
     }
@@ -67,6 +74,7 @@ export const setIsFetchingProgress = (isFetching) => ({type: SET_IS_FETCHING_PRO
 export const setProgress = (progress) => ({type: SET_PROGRESS, progress});
 export const setChart = (chart) => ({type: SET_CHART, chart});
 export const setIsFetchingChart = (isFetching) => ({type: SET_IS_FETCHING_CHART, isFetching});
+export const setKey = (key) => ({type: SET_KEY, key});
 
 
 export const getUserData = () => async (dispatch) => {
