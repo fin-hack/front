@@ -7,7 +7,7 @@ import cn from 'classnames';
 class Tasks extends React.Component {
     render() {
         const tasks = this.props.tasks.map((t, index) => {
-            return <Task key={index} task={t}/>
+            return <Task key={t.name} task={t}/>
         });
 
         const isEmpty = tasks.length <= 0;

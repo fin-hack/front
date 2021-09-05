@@ -16,15 +16,11 @@ class PersonalLeaderboard extends React.Component {
 
     render() {
 
-        const board = this.props.leaderboard.sort((a, b) => {
-            if (a.fields.score - b.fields.score > 0) return -1;
-            if (a.fields.score - b.fields.score === 0) return 0;
-            if (a.fields.score - b.fields.score < 0) return 1;
-        } );
+        const board = this.props.leaderboard;
         return (
             <WithPreloader in={!this.props.isFetching} classNames={'page'}>
                 {
-                    this.props.leaderboard &&
+                    board &&
                     <div className={s.board}>
                         <div className={s.pinned}>
                             {board.slice(0, 3).map((user, index) => {

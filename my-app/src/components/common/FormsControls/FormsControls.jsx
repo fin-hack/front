@@ -9,7 +9,7 @@ const FormControl = ({input, meta, children, isfocused, ...props}) => {
         <div className={`${s.formControl} ${hasError ? s.error : ''}`}>
             <label className={s.controlWrapper}>
                 {children}
-                <div className={cn(s.placeholder, {[s.inactive]: isfocused})}>{props.placeholder}</div>
+                {/*<div className={cn(s.placeholder, {[s.inactive]: isfocused})}>{props.placeholder}</div>*/}
             </label>
             {hasError ?
                 <div><span>{meta.error}</span></div>

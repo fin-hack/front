@@ -13,6 +13,10 @@ class User extends React.Component {
                     <div>{this.props.firstName || 'f n'} {this.props.lastName || 'l n'}</div>
                     <div>{this.props.score} баллов</div>
                 </div>
+                {
+                    this.props.firstName === 'Александра' &&
+                    <img src={getFullPath('crown.svg')} alt=""/>
+                }
             </div>
         )
     }

@@ -16,27 +16,31 @@ class Chart extends React.Component {
     }
 
     render() {
+
+        const data = this.props.chart?.values || [...Array(5).keys()].map(i => 0);
+
         return (
             <WithPreloader in={!this.props.isFetching} classNames={'page'}>
-                {
-                    this.props.chart &&
-                    <div className={s.wrapper}>
-                        {this.props.chart.values.map((value, index) => {
-                            return (
-                                <div key={index} className={s.item} style={{
-                                    height: `${100 * value}%`
-                                }}>
-                                    <div>
-                                        {index + 1}
-                                    </div>
+
+                <div className={s.wrapper}>
+                    {data.map((value, index) => {
+                        return (
+                            <div key={index} className={s.item} style={{
+                                height: `${100 * value}%`
+                            }}>
+                                <div>
+                                    {index === data.length - 1 &&
+                                        <img className={s.squirrel} src={getFullPath('squirrel.png')} alt=""/>
+                                    }
+                                    {index + 1}
                                 </div>
-                            )
-                        })}
-                        <img className={s.rightArrow} src={getFullPath('CaretUp.svg')} alt=""/>
-                        <img className={s.topArrow} src={getFullPath('CaretUp.svg')} alt=""/>
-                        <img className={s.squirrel} src={getFullPath('squirrel.png')} alt=""/>
-                    </div>
-                }
+                            </div>
+                        )
+                    })}
+                    <img className={s.rightArrow} src={getFullPath('CaretUp.svg')} alt=""/>
+                    <img className={s.topArrow} src={getFullPath('CaretUp.svg')} alt=""/>
+                </div>
+
             </WithPreloader>
         )
     }

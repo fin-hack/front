@@ -26,27 +26,25 @@ export const usersAPI = {
 
 export const teamAPI = {
     getTeamData(id) {
-        return getInstance().get(`/team?id=${id}`).then(resp => resp.data);
+        return getInstance().get(`team?id=${id}`).then(resp => resp.data);
     },
     getTasks(id, status) {
-        return getInstance().get(`/team/tasks?id=${id}&&status=${status}`).then(resp => resp.data);
+        return getInstance().get(`team/tasks?id=${id}&&status=${status}`).then(resp => resp.data);
+    },
+    getLeaderboard() {
+        return getInstance().get('team/leaderboard').then(resp => resp.data);
     }
 };
 
 export const authAPI = {
     login(email, password, mood) {
-        /*return getInstance().post(`auth/login/`, {
+        return getInstance().post(`auth/login/`, {
             email, password, mood
         })
             .then(resp => {
                 setApiKey(resp.data.key);
                 return resp.data
-            });*/
+            })
 
-        setApiKey('123');
-
-        return {
-            key: '123'
-        }
-    },
+    }
 };

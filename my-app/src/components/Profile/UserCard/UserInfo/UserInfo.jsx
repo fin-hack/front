@@ -22,7 +22,7 @@ class UserInfo extends React.Component {
                 <WithPreloader in={!this.props.isFetchingTeam} classNames={'page'}>
                     {
                         this.props.teamData?.name &&
-                            <div className={s.teamName}>Team {this.props.teamData.name}</div>
+                            <div className={s.teamName}>Команда {this.props.teamData.name}</div>
                     }
                 </WithPreloader>
             </div>

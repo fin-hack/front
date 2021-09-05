@@ -30,6 +30,8 @@
 
 .item {
     width: 40%;
+    height: 0;
+    transition: .3s .6s;
     justify-self: center;
     background: rgba(130, 20, 20, 0.58);
     display: flex;
@@ -47,11 +49,11 @@
 
 .squirrel {
     position: absolute;
-    top: 50%;
-    left: 90%;
-    -webkit-transform: translate(0, -50%);
-    -moz-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    -o-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+    bottom: 100%;
+    -webkit-transform: translate(-50%, -65%) scale(.7);
+    -moz-transform: translate(-50%, -65%) scale(.7);
+    -ms-transform: translate(-50%, -65%) scale(.7);
+    -o-transform: translate(-50%, -65%) scale(.7);
+    transform: translate(-50%, -65%) scale(.7);
+    transform-origin: center bottom;
 }

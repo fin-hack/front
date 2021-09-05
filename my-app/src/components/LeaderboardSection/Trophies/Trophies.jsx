@@ -7,27 +7,27 @@ const trophies = [
     {
         img: getFullPath('common.svg'),
         name: "Деревянный желудь",
-        goal: '1300 - 1200 очков',
+        goal: '0 - 100 очков',
     },
     {
         img: getFullPath('bronze.svg'),
         name: "Бронзовый желудь",
-        goal: '1300 - 1200 очков',
+        goal: '101 - 200 очков',
     },
     {
         img: getFullPath('silver.svg'),
         name: "Серебряный желудь",
-        goal: '1300 - 1200 очков',
+        goal: '201 - 300 очков',
     },
     {
         img: getFullPath('gold.svg'),
         name: "Золотой желудь",
-        goal: '1300 - 1200 очков',
+        goal: '301 - 400 очков',
     },
     {
         img: getFullPath('platinum.svg'),
         name: "Платиновый желудь",
-        goal: '1300 - 1200 очков',
+        goal: '401 - 500 очков',
     },
 
 ];

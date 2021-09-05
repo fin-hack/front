@@ -19,7 +19,7 @@ class TeamInfo extends React.Component {
                 { this.props.teamData &&
                     <div className={cn(s.wrapper, cs.card)}>
                         <div className={cn(cs.title, s.title)}>
-                            <div>My team</div>
+                            <div>Моя команда</div>
                             <div>{this.props.teamData.name}</div>
                         </div>
                         <TeamMembers members={this.props.users}/>

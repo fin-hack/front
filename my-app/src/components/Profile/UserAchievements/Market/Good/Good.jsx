@@ -9,11 +9,11 @@ class Good extends React.Component {
         return (
             <div className={s.wrapper}>
                 <div className={s.good}>
-                    <div>Повышенный <br/> коэффициент <br/> на день</div>
+                    <div>{this.props.text}</div>
                     <img src={getFullPath('ArrowFatLinesUp.svg')} alt=""/>
                 </div>
                 <div className={s.price}>
-                    15934 баллов
+                    {this.props.price} баллов
                 </div>
                 <div className={s.button}>
                     Получить

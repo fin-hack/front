@@ -1,9 +1,9 @@
 .wrapper {
-    width: min-content;
+    width: 150px;
     justify-self: center;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
+    height: 100%;
+    display: grid;
+    grid-template: 150px auto auto / 100%;
     gap: 20px;
 }
 
@@ -40,5 +40,8 @@
     background: #EAEAEA;
     border-radius: 16px;
     color: #C6C6C6;
-    padding: 10px 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

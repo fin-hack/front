@@ -27,11 +27,14 @@ class Progress extends React.Component {
     render() {
 
         const percent = this.props.progress?.percent.toFixed(2);
+        const plan = this.props.progress?.plan;
+        const good = this.props.progress?.good;
+        const bad = this.props.progress?.bad;
+
         return (
             <div className={cn(cs.card, s.wrapper, {[s.opened]: this.state.opened})}>
                 <WithPreloader in={!this.props.isFetching} classNames={'page'}>
-                    {
-                        this.props.progress &&
+
                         <div className={cn(s.wrapper, {[s.opened]: this.state.opened})}>
                             <div className={cs.title}>План месяца</div>
                             <div className={s.progressbar}>
@@ -66,15 +69,15 @@ class Progress extends React.Component {
                             <div className={cn(s.additional, {[s.opened]: this.state.opened})}>
                                 <div>
                                     <div>План</div>
-                                    <div>{this.props.progress.plan}</div>
+                                    <div>{plan}</div>
                                 </div>
                                 <div>
                                     <div>Успешно</div>
-                                    <div>{this.props.progress.good}</div>
+                                    <div>{good}</div>
                                 </div>
                                 <div>
                                     <div>Исправлено</div>
-                                    <div>{this.props.progress.bad}</div>
+                                    <div>{bad}</div>
                                 </div>
                             </div>
                             <img className={cn(s.arrow, {[s.down]: !this.state.opened})}
@@ -83,7 +86,7 @@ class Progress extends React.Component {
                                  alt=""
                             />
                         </div>
-                    }
+
                 </WithPreloader>
             </div>
         )

@@ -14,11 +14,13 @@ const skills = {
 
 class MySkills extends React.Component {
     render() {
+
+        const data = this.props.userData;
         return (
             <div style={{gridColumn: '1 / 3'}}>
                 <WithPreloader in={!this.props.isFetching} classNames={'page'}>
                     {
-                        this.props.userData &&
+                        data &&
                         <div className={cn(s.wrapper, cs.card)}>
                             <div className={s.title}>
                                 <div>Мои навыки</div>
@@ -30,7 +32,7 @@ class MySkills extends React.Component {
                                         <div key={key} className={s.item}>
                                             <div>{skills[key]}</div>
                                             <div>
-                                                <Progressbar value={this.props.userData[key]}
+                                                <Progressbar value={data[key]}
                                                              max={100}
                                                 />
                                             </div>
