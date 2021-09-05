@@ -28,7 +28,11 @@ class Chart extends React.Component {
                                 height: `${100 * value}%`
                             }}>
                                 {index === data.length - 1 &&
-                                    <img className={s.squirrel} src={getFullPath('squirrel.png')} alt=""/>
+                                    <img className={s.squirrel} src={getFullPath('squirrel.png')} alt=""
+                                         style={{
+                                             bottom: `${100 * value}%`
+                                         }}
+                                    />
                                 }
                                 <div>
                                     {index + 1}
