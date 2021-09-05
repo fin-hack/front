@@ -1,6 +1,6 @@
 .wrapper {
     grid-column: 1 / 3;
-    height: min-content;
+    height: max-content;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -9,14 +9,6 @@
 .goods {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 100px;
+    grid-auto-rows: auto;
     grid-gap: 20px;
-}
-
-.good {
-    width: 100%;
-    height: 100%;
-    background: #F4F4F4;
-    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(220, 220, 220, 0.5), inset -5px 5px 10px rgba(220, 220, 220, 0.2), inset 5px -5px 10px rgba(220, 220, 220, 0.2), inset -5px -5px 10px rgba(255, 255, 255, 0.9), inset 5px 5px 13px rgba(220, 220, 220, 0.9);
-    border-radius: 16px;
 }

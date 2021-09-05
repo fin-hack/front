@@ -1,14 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import s from './FormsControls.module.css';
+import cn from 'classnames';
 import {Field} from "redux-form";
 
-const FormControl = ({input, meta, children, ...props}) => {
+const FormControl = ({input, meta, children, isfocused, ...props}) => {
     const hasError = meta.touched && meta.error;
     return (
         <div className={`${s.formControl} ${hasError ? s.error : ''}`}>
-            <div>
+            <label className={s.controlWrapper}>
                 {children}
-            </div>
+                <div className={cn(s.placeholder, {[s.inactive]: isfocused})}>{props.placeholder}</div>
+            </label>
             {hasError ?
                 <div><span>{meta.error}</span></div>
                 : ""
@@ -23,10 +25,17 @@ export const Textarea = (props) =>
     </FormControl>;
 
 
-export const Input = (props) =>
-    <FormControl {...props}>
-        <input {...props.input} {...props}/>
-    </FormControl>;
+export const Input = (props) => {
+    const [focused, setFocused] = useState(false);
+    return (
+        <FormControl isfocused={focused} {...props}>
+            <input onFocus={() => {
+                console.log('true');
+                setFocused(true);
+            }} onBlur={() => setFocused(false)} {...props.input} {...props}/>
+        </FormControl>
+    )
+};
 
 export const createField = (placeholder, name, Component, props) => {
     return (

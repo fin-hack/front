@@ -10,12 +10,12 @@ const LoginForm = ({handleSubmit, ...props}) => {
     return (
         <form name={'login-form'} onSubmit={handleSubmit} className={s.form}>
             <div className={s.inputs}>
-                {createField('Email', 'email', Input)}
-                {createField('Password', 'password', Input, {type: 'password'})}
-                <div className={s.problem}>Problems?</div>
+                {createField('E-mail или Логин сотрудника', 'email', Input)}
+                {createField('Пароль', 'password', Input, {type: 'password'})}
+                <div className={s.problem}>Возникли проблемы?</div>
             </div>
             <div className={s.mood}>
-                <div>mood</div>
+                <div>Оцените ваше сегодняшнее настроение</div>
                 <div className={s.options}>
                     <Field validate={[required]}
                            name={'mood'}
@@ -39,8 +39,9 @@ const LoginForm = ({handleSubmit, ...props}) => {
                     />
                 </div>
             </div>
+
             <button className={s.submit}>
-                submit
+                Войти в систему
             </button>
         </form>
     )

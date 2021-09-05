@@ -6,7 +6,8 @@ class Trophy extends React.Component {
         return (
             <div className={s.wrapper}>
                 <img src={this.props.img}/>
-                <div>{this.props.goal}</div>
+                <div className={s.name}>{this.props.name}</div>
+                <div className={s.goal}>{this.props.goal}</div>
             </div>
         )
     }
