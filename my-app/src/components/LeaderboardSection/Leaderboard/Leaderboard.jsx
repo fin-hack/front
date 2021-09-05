@@ -10,12 +10,12 @@ const ROUTES = [
     {
         url: '/cabinet/leaderboard/personal',
         Component: PersonalLeaderboard,
-        name: 'personal'
+        name: 'Одиночная'
     },
     {
         url: '/cabinet/leaderboard/teams',
         Component: TeamsLeaderboard,
-        name: 'teams'
+        name: 'Групповая'
     },
 ];
 

@@ -38,6 +38,7 @@
     color: #676565;
     font-weight: 700;
     border-radius: 10px 10px 0 0;
+    max-height: 100%;
 }
 
 .item > div {

@@ -5,23 +5,23 @@ import Trophy from "./Trophy/Trophy";
 
 const trophies = [
     {
-        img: getFullPath('trophy.svg'),
+        img: getFullPath('common.svg'),
         goal: '1300 - 1200 очков',
     },
     {
-        img: getFullPath('trophy.svg'),
+        img: getFullPath('bronze.svg'),
         goal: '1300 - 1200 очков',
     },
     {
-        img: getFullPath('trophy.svg'),
+        img: getFullPath('silver.svg'),
         goal: '1300 - 1200 очков',
     },
     {
-        img: getFullPath('trophy.svg'),
+        img: getFullPath('gold.svg'),
         goal: '1300 - 1200 очков',
     },
     {
-        img: getFullPath('trophy.svg'),
+        img: getFullPath('platinum.svg'),
         goal: '1300 - 1200 очков',
     },
 
