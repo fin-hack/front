@@ -1,4 +1,4 @@
-import {usersAPI} from "../../utils/api";
+import {teamAPI, usersAPI} from "../../utils/api";
 
 const initialState = {
     personal: null,
@@ -46,7 +46,7 @@ export const getPersonalLeaderboard = () => async (dispatch) => {
 
 export const getTeamsLeaderboard = () => async (dispatch) => {
     dispatch(setIsFetching(true));
-    const data = await usersAPI.getLeaderboard();
+    const data = await teamAPI.getLeaderboard();
     dispatch(setTeams(data.leaderboard));
     dispatch(setIsFetching(false));
 };

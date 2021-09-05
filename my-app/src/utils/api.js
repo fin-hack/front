@@ -32,7 +32,7 @@ export const teamAPI = {
         return getInstance().get(`team/tasks?id=${id}&&status=${status}`).then(resp => resp.data);
     },
     getLeaderboard() {
-        return getInstance().get('team/leaderboard').then(resp => resp.data);
+        return getInstance().get('team/leaderboard/').then(resp => resp.data);
     }
 };
 

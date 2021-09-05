@@ -1,0 +1,8 @@
+.board {
+    padding: 20px 40px;
+}
+
+.pinned {
+    position: sticky;
+    top: 0;
+}
