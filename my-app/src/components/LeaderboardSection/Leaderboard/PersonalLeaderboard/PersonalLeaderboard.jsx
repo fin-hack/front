@@ -22,14 +22,9 @@ class PersonalLeaderboard extends React.Component {
                 {
                     board &&
                     <div className={s.board}>
-                        <div className={s.pinned}>
-                            {board.slice(0, 3).map((user, index) => {
-                                return <Item key={index} trophey={getFullPath('platinum.svg')} place={index + 1} user={user}/>
-                            })}
-                        </div>
-                        {board.slice(3, board.length).map((user, index) => {
-                            return <Item key={index} trophey={getFullPath('silver.svg')} place={index + 4} user={user}/>
-                        })}
+                        {board.map((user,index) =>
+                            <Item key={index} trophey={getFullPath('platinum.svg')} place={index + 1} user={user}/>
+                        )}
                     </div>
                 }
             </WithPreloader>

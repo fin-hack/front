@@ -22,14 +22,9 @@ class TeamsLeaderboard extends React.Component {
                 {
                     board &&
                     <div className={s.board}>
-                        <div className={s.pinned}>
-                            {board.slice(0, 3).map((team, index) => {
-                                return <Item key={index} trophey={getFullPath('platinum.svg')} place={index + 1} team={team}/>
-                            })}
-                        </div>
-                        {board.length >= 4 && board.slice(3, board.length).map((team, index) => {
-                            return <Item key={index} trophey={getFullPath('silver.svg')} place={index + 4} team={team}/>
-                        })}
+                        {board.map((team,index) =>
+                            <Item key={index} trophey={getFullPath('platinum.svg')} place={index + 1} team={team}/>
+                        )}
                     </div>
                 }
             </WithPreloader>

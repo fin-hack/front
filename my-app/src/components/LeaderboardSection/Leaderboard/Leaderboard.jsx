@@ -21,7 +21,7 @@ const ROUTES = [
 
 class Leaderboard extends React.Component {
     componentDidMount() {
-        if (this.props.match.url !== ROUTES[0].url && this.props.match.url !== ROUTES[1].url) {
+        if (this.props.location.pathname !== ROUTES[0].url && this.props.location.pathname  !== ROUTES[1].url) {
             this.props.history.push(ROUTES[0].url);
         }
     }
